@@ -31,7 +31,7 @@ def get_db():
     return conn
 
 def save_posts_and_comments(conn, subreddit, posts):
-    now_ts = int(datetime.utcnow().timestamp())
+    now_ts = int(datetime.now(timezone.utc).timestamp())
     cur = conn.cursor()
     post_count = 0
     comment_count = 0

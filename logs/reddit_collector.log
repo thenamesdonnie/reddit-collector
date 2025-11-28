@@ -42,3 +42,33 @@
 2025-11-28 21:58:19,067 [INFO] Saved 0 new posts and 0 new comments for /r/investing
 2025-11-28 21:58:19,067 [INFO] Refreshing comments for 8 active posts
 2025-11-28 21:58:22,260 [INFO] Run finished: 0 new posts, 1 new comments in 6.85 seconds
+2025-11-28 22:12:16,565 [INFO] Reddit client initialised
+2025-11-28 22:12:16,565 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2025-11-28 22:12:52,094 [INFO] Fetched 50 posts from /r/stocks
+2025-11-28 22:12:52,149 [INFO] Saved 43 new posts and 2396 new comments for /r/stocks
+2025-11-28 22:12:52,149 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2025-11-28 22:13:13,732 [INFO] Fetched 50 posts from /r/investing
+2025-11-28 22:13:13,757 [INFO] Saved 44 new posts and 1069 new comments for /r/investing
+2025-11-28 22:13:13,757 [INFO] Refreshing comments for 34 active posts
+2025-11-28 22:13:27,834 [INFO] Removed 68 stale active posts
+2025-11-28 22:13:27,835 [INFO] Run finished: 87 new posts, 3465 new comments in 71.27 seconds
+2025-11-28 22:14:15,449 [INFO] Reddit client initialised
+2025-11-28 22:14:15,449 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2025-11-28 22:14:52,372 [INFO] Fetched 50 posts from /r/stocks
+2025-11-28 22:14:52,404 [INFO] Saved 0 new posts and 2 new comments for /r/stocks
+2025-11-28 22:14:52,404 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2025-11-28 22:15:17,551 [INFO] Fetched 50 posts from /r/investing
+2025-11-28 22:15:17,574 [INFO] Saved 0 new posts and 0 new comments for /r/investing
+2025-11-28 22:15:17,575 [INFO] Refreshing comments for 34 active posts
+2025-11-28 22:15:33,582 [INFO] Removed 66 stale active posts
+2025-11-28 22:15:33,583 [INFO] Run finished: 0 new posts, 2 new comments in 78.13 seconds
+2025-11-28 22:22:54,201 [INFO] Reddit client initialised
+2025-11-28 22:22:54,201 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2025-11-28 22:23:29,116 [INFO] Fetched 50 posts from /r/stocks
+2025-11-28 22:23:29,148 [INFO] Saved 0 new posts and 6 new comments for /r/stocks
+2025-11-28 22:23:29,149 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2025-11-28 22:23:52,831 [INFO] Fetched 50 posts from /r/investing
+2025-11-28 22:23:52,858 [INFO] Saved 0 new posts and 4 new comments for /r/investing
+2025-11-28 22:23:52,859 [INFO] Refreshing comments for 34 active posts
+2025-11-28 22:24:08,721 [INFO] Removed 71 stale active posts
+2025-11-28 22:24:08,721 [INFO] Run finished: 0 new posts, 10 new comments in 74.52 seconds
