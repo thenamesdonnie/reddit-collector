@@ -1,0 +1,44 @@
+2025-11-28 21:52:53,666 [ERROR] Missing REDDIT_CLIENT_ID in reddit.env / environment
+2025-11-28 21:53:15,473 [INFO] Reddit client initialised
+2025-11-28 21:53:36,192 [INFO] Reddit client initialised
+2025-11-28 21:53:36,193 [INFO] Fetching /r/stocks (4 posts, up to 100 comments/post, sort=new)
+2025-11-28 21:53:36,193 [INFO] Run finished: 0 new posts, 0 new comments in 0.00 seconds
+2025-11-28 21:55:59,524 [INFO] Reddit client initialised
+2025-11-28 21:55:59,524 [INFO] Fetching /r/stocks (4 posts, up to 100 comments/post, sort=new)
+2025-11-28 21:56:02,174 [INFO] Fetched 4 posts from /r/stocks
+2025-11-28 21:56:02,190 [INFO] Saved 3 new posts and 189 new comments for /r/stocks
+2025-11-28 21:56:02,190 [INFO] Fetching /r/investing (4 posts, up to 100 comments/post, sort=new)
+2025-11-28 21:56:03,796 [INFO] Fetched 4 posts from /r/investing
+2025-11-28 21:56:03,814 [INFO] Saved 2 new posts and 6 new comments for /r/investing
+2025-11-28 21:56:03,815 [INFO] Refreshing comments for 8 active posts
+2025-11-28 21:56:04,431 [WARNING] Error refreshing post 1p96fic: table comments has no column named author
+2025-11-28 21:56:05,062 [WARNING] Error refreshing post 1p94inl: table comments has no column named author
+2025-11-28 21:56:05,480 [WARNING] Error refreshing post 1p92i21: table comments has no column named author
+2025-11-28 21:56:05,681 [WARNING] Error refreshing post 1p96f9v: table comments has no column named author
+2025-11-28 21:56:06,073 [WARNING] Error refreshing post 1p8znz4: table comments has no column named author
+2025-11-28 21:56:06,277 [WARNING] Error refreshing post 1p8ybe4: table comments has no column named author
+2025-11-28 21:56:06,277 [INFO] Run finished: 5 new posts, 195 new comments in 6.75 seconds
+2025-11-28 21:57:32,953 [INFO] Reddit client initialised
+2025-11-28 21:57:32,953 [INFO] Fetching /r/stocks (4 posts, up to 100 comments/post, sort=new)
+2025-11-28 21:57:35,260 [INFO] Fetched 4 posts from /r/stocks
+2025-11-28 21:57:35,285 [INFO] Saved 0 new posts and 2 new comments for /r/stocks
+2025-11-28 21:57:35,285 [INFO] Fetching /r/investing (4 posts, up to 100 comments/post, sort=new)
+2025-11-28 21:57:36,868 [INFO] Fetched 4 posts from /r/investing
+2025-11-28 21:57:36,868 [INFO] Saved 0 new posts and 0 new comments for /r/investing
+2025-11-28 21:57:36,869 [INFO] Refreshing comments for 8 active posts
+2025-11-28 21:57:37,626 [WARNING] Error refreshing post 1p96fic: 8 values for 7 columns
+2025-11-28 21:57:38,437 [WARNING] Error refreshing post 1p94inl: 8 values for 7 columns
+2025-11-28 21:57:38,943 [WARNING] Error refreshing post 1p92i21: 8 values for 7 columns
+2025-11-28 21:57:39,131 [WARNING] Error refreshing post 1p96f9v: 8 values for 7 columns
+2025-11-28 21:57:39,848 [WARNING] Error refreshing post 1p8znz4: 8 values for 7 columns
+2025-11-28 21:57:40,051 [WARNING] Error refreshing post 1p8ybe4: 8 values for 7 columns
+2025-11-28 21:57:40,052 [INFO] Run finished: 0 new posts, 2 new comments in 7.10 seconds
+2025-11-28 21:58:15,416 [INFO] Reddit client initialised
+2025-11-28 21:58:15,416 [INFO] Fetching /r/stocks (4 posts, up to 100 comments/post, sort=new)
+2025-11-28 21:58:17,746 [INFO] Fetched 4 posts from /r/stocks
+2025-11-28 21:58:17,770 [INFO] Saved 0 new posts and 1 new comments for /r/stocks
+2025-11-28 21:58:17,770 [INFO] Fetching /r/investing (4 posts, up to 100 comments/post, sort=new)
+2025-11-28 21:58:19,066 [INFO] Fetched 4 posts from /r/investing
+2025-11-28 21:58:19,067 [INFO] Saved 0 new posts and 0 new comments for /r/investing
+2025-11-28 21:58:19,067 [INFO] Refreshing comments for 8 active posts
+2025-11-28 21:58:22,260 [INFO] Run finished: 0 new posts, 1 new comments in 6.85 seconds
