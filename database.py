@@ -34,7 +34,6 @@ def init_db():
         id TEXT PRIMARY KEY,
         post_id TEXT,
         parent_id TEXT,
-        author TEXT,
         body TEXT,
         score INTEGER,
         created_utc INTEGER,

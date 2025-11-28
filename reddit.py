@@ -1,10 +1,65 @@
 import os
 import json
 import argparse
-from datetime import datetime
+from datetime import datetime, timezone
 import praw
 from dotenv import load_dotenv
 import re
+import sqlite3
+
+DB_PATH = "reddit.db"
+
+def get_db():
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute("PRAGMA foreign_keys = ON;")
+    return conn
+
+def save_posts_and_comments(conn, subreddit, posts):
+    now_ts = int(datetime.now(timezone.utc).timestamp())
+    cur = conn.cursor()
+
+    for post in posts:
+        # enrich post with subreddit + fetched timestamp
+        post_id = post["id"]
+        cur.execute("""
+        INSERT OR IGNORE INTO posts
+        (id, subreddit, title, selftext, score, upvote_ratio, num_comments,
+         created_utc, url, permalink, flair, fetched_at_utc)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            post_id,
+            subreddit,
+            post.get("title"),
+            post.get("selftext"),
+            post.get("score"),
+            post.get("upvote_ratio"),
+            post.get("num_comments"),
+            post.get("created_utc"),
+            post.get("url"),
+            post.get("permalink"),
+            post.get("link_flair_text"),
+            now_ts,
+        ))
+
+        for c in post.get("comments", []):
+            if not c.get("id"):
+                continue
+            cur.execute("""
+            INSERT OR IGNORE INTO comments
+            (id, post_id, parent_id, body, score, created_utc, fetched_at_utc)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+            """, (
+                c.get("id"),
+                post_id,
+                c.get("parent_id"),
+                c.get("body"),
+                c.get("score"),
+                c.get("created_utc"),
+                now_ts,
+            ))
+
+    conn.commit()
+
 
 #!/usr/bin/env python3
 """
@@ -66,7 +121,6 @@ def fetch_subreddit(reddit, name, post_limit=50, comment_limit_per_post=100, sor
                                         "body": getattr(c, "body", None),
                                         "score": getattr(c, "score", None),
                                         "created_utc": int(getattr(c, "created_utc", 0)) if getattr(c, "created_utc", None) else None,
-                                        "author": c.author.name if getattr(c, "author", None) else None,
                                 })
 
                         submission_data["comments"] = comments_out
@@ -85,21 +139,27 @@ def main():
         parser.add_argument("-c","--comments", type=int, default=100, help="Comments per post (default: 100)")
         parser.add_argument("-s","--sort", type=str, default="new", choices=["new", "hot", "top", "rising"],
                                                 help="Which listing to use (default: new)")
-        parser.add_argument("--outdir", type=str, default="data", help="Output directory (default: data)")
         args = parser.parse_args()
 
         reddit = build_reddit()
-        # Create output directory if it doesn't exist
-        os.makedirs(args.outdir, exist_ok=True)
+
+        conn = sqlite3.connect(DB_PATH)
+        conn.execute("PRAGMA foreign_keys = ON;")
 
         for sub in [s.strip() for s in args.subreddits.split(",") if s.strip()]:
                 print(f"Fetching /r/{sub} ({args.posts} posts, up to {args.comments} comments/post) ...")
-                items = fetch_subreddit(reddit, sub, post_limit=args.posts, comment_limit_per_post=args.comments, sort=args.sort)
-                ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
-                out_path = os.path.join(args.outdir, f"{sub}_{ts}.json")
-                with open(out_path, "w", encoding="utf-8") as f:
-                        json.dump({"subreddit": sub, "fetched_at_utc": ts, "posts": items}, f, ensure_ascii=False, indent=2)
-                print(f"Wrote {len(items)} posts to {out_path}")
+                items = fetch_subreddit(
+                reddit,
+                sub,
+                post_limit=args.posts,
+                comment_limit_per_post=args.comments,
+                sort=args.sort
+                )
+                print(f"Fetched {len(items)} posts from /r/{sub}, saving to database...")
+                save_posts_and_comments(conn, sub, items)
+                print(f"Saved /r/{sub} batch to {DB_PATH}")
+
+        conn.close()
 
 
 if __name__ == "__main__":
