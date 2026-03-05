@@ -19,12 +19,14 @@ import pandas as pd
 from tqdm import tqdm
 import csv
 import argparse
+import shutil
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 DB_PATH            = "reddit.db"
 SENTISTRENGTH_JAR  = "./sentistrength/SentiStrength.jar"
 SENTISTRENGTH_DATA = "./sentistrength/SentiStrength_Data/"
-BATCH_SIZE         = 500          # texts per SentiStrength call
+INPUT_DIR         = "./input/"
+OUTPUT_DIR        = "./output/"
 # ─────────────────────────────────────────────────────────────────────────────
 
 logging.basicConfig(level=logging.INFO,
@@ -136,7 +138,7 @@ def populate_mentions(conn, posts, comments):
     buckets = {t: [] for t in MAG7}
 
     def scan(df, src):
-        for _, row in tqdm(df.iterrows(), total=len(df), desc=f"Scanning {src}s"):
+        for row in tqdm(df.to_dict("records"), total=len(df), desc=f"Scanning {src}s"):
             hits = detect_tickers(row["body"])
             if not hits:
                 continue
@@ -157,32 +159,47 @@ def populate_mentions(conn, posts, comments):
             log.info(f"  {ticker}: 0 mentions")
             continue
         df = pd.DataFrame(buckets[ticker],
-                          columns=["id","source","post_id","subreddit",
-                           "body","score","created_utc","date"])
+                        columns=["id","source","post_id","subreddit",
+                        "body","score","created_utc","date"])
         df.to_csv(filename, index=False)
-    texts = [row[4] for row in buckets["AAPL"]]
-    with open("input.txt", "w", encoding="utf-8") as f:
-        for text in texts:
-            f.write(text.replace("\n", " ") + "\n")  # flatten to single line
+        
+        with open(f"./input/{ticker}.txt", "w", encoding="utf-8") as f:
+            for row in buckets[ticker]:
+                id   = row[0]  # comment id
+                body = row[4].replace("\n", " ").replace("\t", " ")  # flatten
+                f.write(f"{id}\t{body}\n")
+        
+        log.info(f"  {ticker}: {len(buckets[ticker]):,} mentions inserted")
         
 
 # ── SentiStrength ─────────────────────────────────────────────────────────────
 
 def run_sentistrength():
-    subprocess.run(
-        ["java", "-jar", SENTISTRENGTH_JAR, "sentidata", SENTISTRENGTH_DATA, "input", "input.csv"]
-    )
-
-def score():
     for ticker in MAG7:
-        filename = f"./csvs/{ticker}_daily_sentiment.csv"
-        text = ("bullish today")
-        with open(filename, "w", newline="") as f:
-            writer = csv.writer(f)
-            writer.writerow(["text", "positive", "negative"])
-            positive, negative = run_sentistrength(text)
-            writer.writerow([text, positive, negative])
-            print(f"text: {text} | positive: {positive} | negative: {negative}")
+        subprocess.run(
+            ["java", "-jar", SENTISTRENGTH_JAR, "sentidata", SENTISTRENGTH_DATA, "input",
+             f"./input/{ticker}.txt", "textCol", "2", "idCol", "1", "overwrite", "resultsExtension", "_out.csv"]
+        )
+        shutil.move(f"./input/{ticker}_classID.txt", f"./output/{ticker}_out.csv")
+
+def append_sentiment_scores():
+    for ticker in MAG7:
+        mentions_file = f"./csvs/{ticker}_mentions.csv"
+        scores_file   = f"./output/{ticker}_out.csv"
+
+        mentions = pd.read_csv(mentions_file)
+        print(mentions.head())
+
+        scores = pd.read_csv(scores_file, sep="\t", header=None, names=["id","positive","negative"])
+        print(scores.head())
+
+        # merge on id so mismatched lengths don't matter
+        mentions = mentions.merge(scores[["id","positive","negative"]],
+                                  on="id", how="left")
+        mentions["compound"] = mentions["positive"] + mentions["negative"]
+
+        mentions.to_csv(mentions_file, index=False, header=False)
+        log.info(f"  {ticker}: scores appended to mentions csv")
 
 # ── Main ─────────────────────────────────────────────────────────────
 
@@ -190,6 +207,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-ns", "--no-scan", action="store_true", 
                         help="Skip scanning comments and use existing mentions tables")
+    parser.add_argument("-ss", "--skip-sentiment", action="store_true",
+                        help="Skip running SentiStrength and use existing sentiment scores")
     args = parser.parse_args()
 
     conn = get_db()
@@ -200,11 +219,11 @@ def main():
         populate_mentions(conn, posts, comments)
     else:
         log.info("Skipping scan, using existing mentions tables")
-
-    # log.info("Running SentiStrength scoring...")
-    # for ticker in MAG7:
-    #     score_ticker(conn, ticker)
-    run_sentistrength()
+    if not args.skip_sentiment:
+        run_sentistrength()
+    else:
+        log.info("Skipping SentiStrength, using existing sentiment scores")
+    append_sentiment_scores()
     conn.close()
     log.info("Done!")
 
