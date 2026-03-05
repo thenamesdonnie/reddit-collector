@@ -18,6 +18,7 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 import csv
+import argparse
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 DB_PATH            = "reddit.db"
@@ -160,7 +161,7 @@ def populate_mentions(conn, posts, comments):
                            "body","score","created_utc","date"])
         df.to_csv(filename, index=False)
     texts = [row[4] for row in buckets["AAPL"]]
-    with open("input.txt", "w") as f:
+    with open("input.txt", "w", encoding="utf-8") as f:
         for text in texts:
             f.write(text.replace("\n", " ") + "\n")  # flatten to single line
         
@@ -186,16 +187,26 @@ def score():
 # ── Main ─────────────────────────────────────────────────────────────
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-ns", "--no-scan", action="store_true", 
+                        help="Skip scanning comments and use existing mentions tables")
+    args = parser.parse_args()
+
     conn = get_db()
     create_ticker_tables(conn)
-    posts, comments = load_and_clean(conn)
-    populate_mentions(conn, posts, comments)
-    log.info("Running SentiStrength scoring...")
+
+    if not args.no_scan:
+        posts, comments = load_and_clean(conn)
+        populate_mentions(conn, posts, comments)
+    else:
+        log.info("Skipping scan, using existing mentions tables")
+
+    # log.info("Running SentiStrength scoring...")
     # for ticker in MAG7:
     #     score_ticker(conn, ticker)
+    run_sentistrength()
     conn.close()
     log.info("Done!")
 
 if __name__ == "__main__":
-    #  main()
-    run_sentistrength()
+     main()
