@@ -1,0 +1,65 @@
+absolutely	1
+astoundingly	2
+breathtakingly	2
+complete	1	9 June 2010
+completely	1	9 June 2010
+consistently	1
+could	-1	9 June 2010
+dazzlingly	1
+decline	-1	zc
+decrease	-1	zc
+definitely	1
+devastatingly	2	11 June 2012
+did	-1	9 June 2010 [past is less strong]
+drop	-1	zc
+enormous	2	zc
+enormously	1
+especially	1	9 June 2010
+exceptionally	2
+extraordinarily	2
+extremely	2
+falling off	-1	zc
+few	-1	zc
+fuckin	2
+fucking	2
+genuinely	1
+great	1	zc
+huge	2	zc
+hugely	2
+humongours	2	zc
+increase	1	zc
+incredibly	2
+just	-1
+large amount of	1	zc
+large number of	1	zc
+lessen	-1	zc
+little	-1	zc
+lowering	-1	zc
+may	-1	9 June 2010
+might	-1	9 June 2010
+much	1	zc
+ought	-1	9 June 2010
+outstandingly	2
+overwhelmingly	2
+phenomenally	2
+really	1	9 June 2010
+reduce	-1	zc
+reduction	-1	zc
+remarkably	1
+should	-1	9 June 2010
+slightly	-1	9 June 2010
+so	0	Was 1 but sometimes used as neutral or mild term
+soar	2	Jessica
+some	-1
+sometimes	-1	9 June 2010
+spectacularly	2
+strengthen	2	Jessica
+sum	-1
+super	1	June 2012
+total	1	9 June 2010
+totally	1	9 June 2010
+tremendously	2
+ultra	1
+very	1
+weaken	-2	Jessica
+would	-1	9 June 2010
