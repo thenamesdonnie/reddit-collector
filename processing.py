@@ -17,7 +17,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
-import csv
 import argparse
 import shutil
 
@@ -80,25 +79,6 @@ def get_db(path=DB_PATH):
     conn.execute("PRAGMA foreign_keys = ON;")
     conn.row_factory = sqlite3.Row
     return conn
-
-def create_ticker_tables(conn):
-    c = conn.cursor()
-    for ticker in MAG7:
-        c.execute(f"""
-            CREATE TABLE IF NOT EXISTS {ticker}_mentions (
-                id TEXT PRIMARY KEY, source TEXT NOT NULL,
-                post_id TEXT, subreddit TEXT, body TEXT,
-                score INTEGER, created_utc INTEGER, date TEXT
-            )""")
-        c.execute(f"""
-            CREATE TABLE IF NOT EXISTS {ticker}_daily_sentiment (
-                date TEXT PRIMARY KEY, mention_count INTEGER,
-                avg_positive REAL, avg_negative REAL, avg_compound REAL,
-                median_positive REAL, median_negative REAL,
-                weighted_avg_positive REAL, weighted_avg_negative REAL
-            )""")
-    conn.commit()
-    log.info("Ticker tables ready.")
 
 # ── Load & clean ──────────────────────────────────────────────────────────────
 def load_and_clean(conn):
@@ -178,9 +158,11 @@ def run_sentistrength():
     for ticker in MAG7:
         subprocess.run(
             ["java", "-jar", SENTISTRENGTH_JAR, "sentidata", SENTISTRENGTH_DATA, "input",
-             f"./input/{ticker}.txt", "textCol", "2", "idCol", "1", "overwrite", "resultsExtension", "_out.csv"]
+             f"./input/{ticker}.txt", "textCol", "2", "idCol", "1", "overwrite", "resultsExtension", "_out.csv"],
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
         )
         shutil.move(f"./input/{ticker}_classID.txt", f"./output/{ticker}_out.csv")
+        log.info(f"  {ticker}: SentiStrength scoring completed")
 
 def append_sentiment_scores():
     for ticker in MAG7:
@@ -188,18 +170,61 @@ def append_sentiment_scores():
         scores_file   = f"./output/{ticker}_out.csv"
 
         mentions = pd.read_csv(mentions_file)
-        print(mentions.head())
+        mentions = mentions.drop(columns=["positive","negative","compound"], errors="ignore")
 
-        scores = pd.read_csv(scores_file, sep="\t", header=None, names=["id","positive","negative"])
-        print(scores.head())
+        scores = pd.read_csv(scores_file, sep="\t", header=None, 
+                            names=["id","positive","negative"])
 
-        # merge on id so mismatched lengths don't matter
+        mentions["id"] = mentions["id"].astype(str)
+        scores["id"]   = scores["id"].astype(str)
+
         mentions = mentions.merge(scores[["id","positive","negative"]],
-                                  on="id", how="left")
+                                on="id", how="left")
         mentions["compound"] = mentions["positive"] + mentions["negative"]
 
-        mentions.to_csv(mentions_file, index=False, header=False)
+        mentions.to_csv(mentions_file, index=False)
         log.info(f"  {ticker}: scores appended to mentions csv")
+
+        daily = (
+            mentions.groupby("date")
+            .agg(
+                mention_count=("id", "count"),
+                avg_positive=("positive", "mean"),
+                avg_negative=("negative", "mean"),
+                avg_compound=("compound", "mean"),
+                median_positive=("positive", "median"),
+                median_negative=("negative", "median"),
+            )
+            .reset_index()
+        )
+
+        # roll weekend sentiment into Monday
+        daily["date"] = pd.to_datetime(daily["date"])
+
+        def roll_to_monday(date):
+            if date.weekday() == 5:   # Saturday
+                return date + pd.Timedelta(days=2)
+            elif date.weekday() == 6:  # Sunday
+                return date + pd.Timedelta(days=1)
+            return date
+
+        daily["date"] = daily["date"].apply(roll_to_monday)
+
+        # re-aggregate in case multiple days now share the same Monday
+        daily = (
+            daily.groupby("date")
+            .agg(
+                mention_count=("mention_count", "sum"),
+                avg_positive=("avg_positive", "mean"),
+                avg_negative=("avg_negative", "mean"),
+                avg_compound=("avg_compound", "mean"),
+                median_positive=("median_positive", "mean"),
+                median_negative=("median_negative", "mean"),
+            )
+            .reset_index()
+        )
+        daily.to_csv(f"./csvs/{ticker}_daily_sentiment.csv", index=False)
+        log.info(f"  {ticker}: daily sentiment written ({len(daily)} days)")
 
 # ── Main ─────────────────────────────────────────────────────────────
 
@@ -212,7 +237,6 @@ def main():
     args = parser.parse_args()
 
     conn = get_db()
-    create_ticker_tables(conn)
 
     if not args.no_scan:
         posts, comments = load_and_clean(conn)
