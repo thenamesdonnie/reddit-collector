@@ -46495,3 +46495,13 @@
 2026-03-05 17:00:46,149 [INFO] Refreshing comments for 52 active posts
 2026-03-05 17:01:11,433 [INFO] Removed 73 stale active posts
 2026-03-05 17:01:11,433 [INFO] Run finished: 2 new posts, 52 new comments in 69.77 seconds
+2026-03-05 17:30:02,058 [INFO] Reddit client initialised
+2026-03-05 17:30:02,059 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 17:30:33,010 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 17:30:33,030 [INFO] Saved 0 new posts and 24 new comments for /r/stocks
+2026-03-05 17:30:33,030 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 17:30:50,787 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 17:30:50,812 [INFO] Saved 0 new posts and 16 new comments for /r/investing
+2026-03-05 17:30:50,813 [INFO] Refreshing comments for 49 active posts
+2026-03-05 17:31:17,315 [INFO] Removed 63 stale active posts
+2026-03-05 17:31:17,315 [INFO] Run finished: 0 new posts, 40 new comments in 75.26 seconds
