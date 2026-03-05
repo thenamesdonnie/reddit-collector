@@ -45467,3 +45467,961 @@
 2026-03-03 14:02:44,371 [INFO] Refreshing comments for 37 active posts
 2026-03-03 14:03:51,079 [INFO] Removed 67 stale active posts
 2026-03-03 14:03:51,079 [INFO] Run finished: 1 new posts, 64 new comments in 229.02 seconds
+2026-03-03 14:30:01,797 [INFO] Reddit client initialised
+2026-03-03 14:30:01,797 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 14:30:53,088 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 14:30:53,117 [INFO] Saved 1 new posts and 49 new comments for /r/stocks
+2026-03-03 14:30:53,118 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 14:31:20,220 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 14:31:20,237 [INFO] Saved 1 new posts and 24 new comments for /r/investing
+2026-03-03 14:31:20,237 [INFO] Refreshing comments for 39 active posts
+2026-03-03 14:32:04,704 [INFO] Removed 67 stale active posts
+2026-03-03 14:32:04,704 [INFO] Run finished: 2 new posts, 73 new comments in 122.91 seconds
+2026-03-03 15:00:01,935 [INFO] Reddit client initialised
+2026-03-03 15:00:01,935 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 15:00:37,320 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 15:00:37,353 [INFO] Saved 1 new posts and 71 new comments for /r/stocks
+2026-03-03 15:00:37,353 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 15:00:56,085 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 15:00:56,110 [INFO] Saved 0 new posts and 7 new comments for /r/investing
+2026-03-03 15:00:56,110 [INFO] Refreshing comments for 38 active posts
+2026-03-03 15:01:17,284 [INFO] Removed 77 stale active posts
+2026-03-03 15:01:17,284 [INFO] Run finished: 1 new posts, 78 new comments in 75.35 seconds
+2026-03-03 15:30:01,939 [INFO] Reddit client initialised
+2026-03-03 15:30:01,940 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 15:30:34,147 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 15:30:34,176 [INFO] Saved 2 new posts and 176 new comments for /r/stocks
+2026-03-03 15:30:34,176 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 15:30:55,037 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 15:30:55,054 [INFO] Saved 0 new posts and 12 new comments for /r/investing
+2026-03-03 15:30:55,054 [INFO] Refreshing comments for 38 active posts
+2026-03-03 15:31:15,723 [INFO] Removed 75 stale active posts
+2026-03-03 15:31:15,724 [INFO] Run finished: 2 new posts, 188 new comments in 73.79 seconds
+2026-03-03 16:00:02,003 [INFO] Reddit client initialised
+2026-03-03 16:00:02,003 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 16:00:35,827 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 16:00:35,864 [INFO] Saved 2 new posts and 73 new comments for /r/stocks
+2026-03-03 16:00:35,864 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 16:00:54,244 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 16:00:54,262 [INFO] Saved 1 new posts and 38 new comments for /r/investing
+2026-03-03 16:00:54,262 [INFO] Refreshing comments for 40 active posts
+2026-03-03 16:01:16,496 [INFO] Removed 67 stale active posts
+2026-03-03 16:01:16,496 [INFO] Run finished: 3 new posts, 111 new comments in 74.49 seconds
+2026-03-03 16:30:01,500 [INFO] Reddit client initialised
+2026-03-03 16:30:01,500 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 16:30:35,230 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 16:30:35,263 [INFO] Saved 1 new posts and 48 new comments for /r/stocks
+2026-03-03 16:30:35,263 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 16:30:53,482 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 16:30:53,501 [INFO] Saved 2 new posts and 43 new comments for /r/investing
+2026-03-03 16:30:53,501 [INFO] Refreshing comments for 40 active posts
+2026-03-03 16:31:16,158 [INFO] Removed 68 stale active posts
+2026-03-03 16:31:16,158 [INFO] Run finished: 3 new posts, 91 new comments in 74.66 seconds
+2026-03-03 17:00:02,095 [INFO] Reddit client initialised
+2026-03-03 17:00:02,095 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 17:00:35,990 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 17:00:36,017 [INFO] Saved 2 new posts and 42 new comments for /r/stocks
+2026-03-03 17:00:36,018 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 17:00:53,934 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 17:00:53,958 [INFO] Saved 2 new posts and 33 new comments for /r/investing
+2026-03-03 17:00:53,958 [INFO] Refreshing comments for 43 active posts
+2026-03-03 17:01:17,262 [INFO] Removed 67 stale active posts
+2026-03-03 17:01:17,262 [INFO] Run finished: 4 new posts, 75 new comments in 75.17 seconds
+2026-03-03 17:30:01,718 [INFO] Reddit client initialised
+2026-03-03 17:30:01,718 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 17:30:32,011 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 17:30:32,042 [INFO] Saved 1 new posts and 38 new comments for /r/stocks
+2026-03-03 17:30:32,042 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 17:30:50,449 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 17:30:50,465 [INFO] Saved 1 new posts and 28 new comments for /r/investing
+2026-03-03 17:30:50,466 [INFO] Refreshing comments for 45 active posts
+2026-03-03 17:31:15,570 [INFO] Removed 70 stale active posts
+2026-03-03 17:31:15,570 [INFO] Run finished: 2 new posts, 66 new comments in 73.85 seconds
+2026-03-03 18:00:01,271 [INFO] Reddit client initialised
+2026-03-03 18:00:01,271 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 18:00:32,853 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 18:00:32,875 [INFO] Saved 2 new posts and 45 new comments for /r/stocks
+2026-03-03 18:00:32,875 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 18:00:51,376 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 18:00:51,393 [INFO] Saved 1 new posts and 43 new comments for /r/investing
+2026-03-03 18:00:51,393 [INFO] Refreshing comments for 48 active posts
+2026-03-03 18:01:16,913 [INFO] Removed 64 stale active posts
+2026-03-03 18:01:16,913 [INFO] Run finished: 3 new posts, 88 new comments in 75.64 seconds
+2026-03-03 18:30:01,344 [INFO] Reddit client initialised
+2026-03-03 18:30:01,344 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 18:30:32,839 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 18:30:32,859 [INFO] Saved 0 new posts and 34 new comments for /r/stocks
+2026-03-03 18:30:32,859 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 18:30:50,311 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 18:30:50,337 [INFO] Saved 1 new posts and 34 new comments for /r/investing
+2026-03-03 18:30:50,337 [INFO] Refreshing comments for 47 active posts
+2026-03-03 18:31:14,603 [INFO] Removed 66 stale active posts
+2026-03-03 18:31:14,603 [INFO] Run finished: 1 new posts, 68 new comments in 73.26 seconds
+2026-03-03 19:00:01,718 [INFO] Reddit client initialised
+2026-03-03 19:00:01,719 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 19:00:50,762 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 19:00:50,783 [INFO] Saved 0 new posts and 35 new comments for /r/stocks
+2026-03-03 19:00:50,783 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 19:01:09,595 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 19:01:09,620 [INFO] Saved 1 new posts and 49 new comments for /r/investing
+2026-03-03 19:01:09,621 [INFO] Refreshing comments for 47 active posts
+2026-03-03 19:01:46,443 [WARNING] Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1rjukt8/
+2026-03-03 19:02:01,658 [WARNING] Retrying due to 503 status: GET https://oauth.reddit.com/comments/1rju7ho/
+2026-03-03 19:02:03,128 [WARNING] Retrying due to 503 status: GET https://oauth.reddit.com/comments/1rjqylz/
+2026-03-03 19:02:03,980 [WARNING] Retrying due to 503 status: GET https://oauth.reddit.com/comments/1rjqylz/
+2026-03-03 19:02:12,767 [INFO] Removed 65 stale active posts
+2026-03-03 19:02:12,768 [INFO] Run finished: 1 new posts, 84 new comments in 131.05 seconds
+2026-03-03 19:30:01,581 [INFO] Reddit client initialised
+2026-03-03 19:30:01,581 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 19:30:34,197 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 19:30:34,208 [INFO] Saved 2 new posts and 30 new comments for /r/stocks
+2026-03-03 19:30:34,209 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 19:30:52,711 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 19:30:52,739 [INFO] Saved 0 new posts and 27 new comments for /r/investing
+2026-03-03 19:30:52,739 [INFO] Refreshing comments for 45 active posts
+2026-03-03 19:31:16,622 [INFO] Removed 68 stale active posts
+2026-03-03 19:31:16,623 [INFO] Run finished: 2 new posts, 57 new comments in 75.04 seconds
+2026-03-03 20:00:01,687 [INFO] Reddit client initialised
+2026-03-03 20:00:01,688 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 20:01:06,069 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 20:01:06,081 [INFO] Saved 0 new posts and 62 new comments for /r/stocks
+2026-03-03 20:01:06,081 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 20:02:03,218 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 20:02:03,244 [INFO] Saved 1 new posts and 19 new comments for /r/investing
+2026-03-03 20:02:03,244 [INFO] Refreshing comments for 44 active posts
+2026-03-03 20:03:22,330 [INFO] Removed 63 stale active posts
+2026-03-03 20:03:22,330 [INFO] Run finished: 1 new posts, 81 new comments in 200.64 seconds
+2026-03-03 20:30:01,702 [INFO] Reddit client initialised
+2026-03-03 20:30:01,703 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 20:32:25,003 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 20:32:25,034 [INFO] Saved 0 new posts and 61 new comments for /r/stocks
+2026-03-03 20:32:25,034 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 20:33:30,504 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 20:33:30,523 [INFO] Saved 0 new posts and 23 new comments for /r/investing
+2026-03-03 20:33:30,523 [INFO] Refreshing comments for 43 active posts
+2026-03-03 20:34:27,279 [INFO] Removed 68 stale active posts
+2026-03-03 20:34:27,280 [INFO] Run finished: 0 new posts, 84 new comments in 265.58 seconds
+2026-03-03 21:00:02,196 [INFO] Reddit client initialised
+2026-03-03 21:00:02,196 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 21:00:37,600 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 21:00:37,619 [INFO] Saved 0 new posts and 22 new comments for /r/stocks
+2026-03-03 21:00:37,619 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 21:00:55,793 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 21:00:55,811 [INFO] Saved 1 new posts and 17 new comments for /r/investing
+2026-03-03 21:00:55,811 [INFO] Refreshing comments for 42 active posts
+2026-03-03 21:01:18,502 [INFO] Removed 66 stale active posts
+2026-03-03 21:01:18,502 [INFO] Run finished: 1 new posts, 39 new comments in 76.31 seconds
+2026-03-03 21:30:01,647 [INFO] Reddit client initialised
+2026-03-03 21:30:01,647 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 21:30:36,094 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 21:30:36,128 [INFO] Saved 0 new posts and 29 new comments for /r/stocks
+2026-03-03 21:30:36,128 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 21:30:53,473 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 21:30:53,497 [INFO] Saved 2 new posts and 18 new comments for /r/investing
+2026-03-03 21:30:53,498 [INFO] Refreshing comments for 44 active posts
+2026-03-03 21:31:16,893 [INFO] Removed 68 stale active posts
+2026-03-03 21:31:16,893 [INFO] Run finished: 2 new posts, 47 new comments in 75.25 seconds
+2026-03-03 22:00:01,522 [INFO] Reddit client initialised
+2026-03-03 22:00:01,523 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 22:00:41,160 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 22:00:41,198 [INFO] Saved 1 new posts and 23 new comments for /r/stocks
+2026-03-03 22:00:41,198 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 22:01:01,935 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 22:01:01,951 [INFO] Saved 1 new posts and 21 new comments for /r/investing
+2026-03-03 22:01:01,951 [INFO] Refreshing comments for 44 active posts
+2026-03-03 22:01:27,528 [INFO] Removed 66 stale active posts
+2026-03-03 22:01:27,528 [INFO] Run finished: 2 new posts, 44 new comments in 86.01 seconds
+2026-03-03 22:30:02,142 [INFO] Reddit client initialised
+2026-03-03 22:30:02,143 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 22:30:35,746 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 22:30:35,782 [INFO] Saved 0 new posts and 32 new comments for /r/stocks
+2026-03-03 22:30:35,782 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 22:30:52,983 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 22:30:53,008 [INFO] Saved 2 new posts and 23 new comments for /r/investing
+2026-03-03 22:30:53,008 [INFO] Refreshing comments for 46 active posts
+2026-03-03 22:31:16,274 [INFO] Removed 65 stale active posts
+2026-03-03 22:31:16,275 [INFO] Run finished: 2 new posts, 55 new comments in 74.13 seconds
+2026-03-03 23:00:02,192 [INFO] Reddit client initialised
+2026-03-03 23:00:02,193 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 23:00:41,611 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 23:00:41,640 [INFO] Saved 1 new posts and 34 new comments for /r/stocks
+2026-03-03 23:00:41,640 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 23:01:01,528 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 23:01:01,554 [INFO] Saved 1 new posts and 38 new comments for /r/investing
+2026-03-03 23:01:01,554 [INFO] Refreshing comments for 46 active posts
+2026-03-03 23:01:27,552 [INFO] Removed 63 stale active posts
+2026-03-03 23:01:27,553 [INFO] Run finished: 2 new posts, 72 new comments in 85.36 seconds
+2026-03-03 23:30:01,276 [INFO] Reddit client initialised
+2026-03-03 23:30:01,276 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 23:30:38,199 [INFO] Fetched 50 posts from /r/stocks
+2026-03-03 23:30:38,220 [INFO] Saved 2 new posts and 37 new comments for /r/stocks
+2026-03-03 23:30:38,220 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-03 23:30:57,767 [INFO] Fetched 50 posts from /r/investing
+2026-03-03 23:30:57,793 [INFO] Saved 1 new posts and 32 new comments for /r/investing
+2026-03-03 23:30:57,794 [INFO] Refreshing comments for 46 active posts
+2026-03-03 23:31:23,289 [INFO] Removed 64 stale active posts
+2026-03-03 23:31:23,289 [INFO] Run finished: 3 new posts, 69 new comments in 82.01 seconds
+2026-03-04 00:00:01,327 [INFO] Reddit client initialised
+2026-03-04 00:00:01,327 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 00:00:35,730 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 00:00:35,751 [INFO] Saved 1 new posts and 45 new comments for /r/stocks
+2026-03-04 00:00:35,751 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 00:00:53,129 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 00:00:53,153 [INFO] Saved 2 new posts and 14 new comments for /r/investing
+2026-03-04 00:00:53,153 [INFO] Refreshing comments for 49 active posts
+2026-03-04 00:01:19,178 [INFO] Removed 62 stale active posts
+2026-03-04 00:01:19,178 [INFO] Run finished: 3 new posts, 59 new comments in 77.85 seconds
+2026-03-04 00:30:01,459 [INFO] Reddit client initialised
+2026-03-04 00:30:01,460 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 00:30:33,552 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 00:30:33,572 [INFO] Saved 0 new posts and 24 new comments for /r/stocks
+2026-03-04 00:30:33,572 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 00:30:50,672 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 00:30:50,687 [INFO] Saved 0 new posts and 14 new comments for /r/investing
+2026-03-04 00:30:50,688 [INFO] Refreshing comments for 48 active posts
+2026-03-04 00:31:15,858 [INFO] Removed 65 stale active posts
+2026-03-04 00:31:15,858 [INFO] Run finished: 0 new posts, 38 new comments in 74.40 seconds
+2026-03-04 01:00:01,919 [INFO] Reddit client initialised
+2026-03-04 01:00:01,919 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 01:00:33,696 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 01:00:33,716 [INFO] Saved 1 new posts and 27 new comments for /r/stocks
+2026-03-04 01:00:33,716 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 01:00:52,102 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 01:00:52,120 [INFO] Saved 0 new posts and 17 new comments for /r/investing
+2026-03-04 01:00:52,121 [INFO] Refreshing comments for 49 active posts
+2026-03-04 01:01:18,364 [INFO] Removed 62 stale active posts
+2026-03-04 01:01:18,364 [INFO] Run finished: 1 new posts, 44 new comments in 76.45 seconds
+2026-03-04 01:30:01,319 [INFO] Reddit client initialised
+2026-03-04 01:30:01,320 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 01:31:11,552 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 01:31:11,572 [INFO] Saved 0 new posts and 27 new comments for /r/stocks
+2026-03-04 01:31:11,572 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 01:32:01,974 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 01:32:01,998 [INFO] Saved 1 new posts and 24 new comments for /r/investing
+2026-03-04 01:32:01,998 [INFO] Refreshing comments for 50 active posts
+2026-03-04 01:32:58,874 [INFO] Removed 60 stale active posts
+2026-03-04 01:32:58,875 [INFO] Run finished: 1 new posts, 51 new comments in 177.56 seconds
+2026-03-04 02:00:01,263 [INFO] Reddit client initialised
+2026-03-04 02:00:01,264 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 02:00:32,360 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 02:00:32,385 [INFO] Saved 0 new posts and 16 new comments for /r/stocks
+2026-03-04 02:00:32,385 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 02:00:49,905 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 02:00:49,921 [INFO] Saved 0 new posts and 41 new comments for /r/investing
+2026-03-04 02:00:49,921 [INFO] Refreshing comments for 50 active posts
+2026-03-04 02:01:17,218 [INFO] Removed 61 stale active posts
+2026-03-04 02:01:17,219 [INFO] Run finished: 0 new posts, 57 new comments in 75.96 seconds
+2026-03-04 02:30:01,666 [INFO] Reddit client initialised
+2026-03-04 02:30:01,666 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 02:30:11,678 [WARNING] Retrying due to ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'www.reddit.com\', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b7821dce6c0>: Failed to resolve \'www.reddit.com\' ([Errno -3] Temporary failure in name resolution)"))')) status: GET https://oauth.reddit.com/r/stocks/new
+2026-03-04 02:30:21,757 [WARNING] Retrying due to ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'www.reddit.com\', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b7821b99ca0>: Failed to resolve \'www.reddit.com\' ([Errno -3] Temporary failure in name resolution)"))')) status: GET https://oauth.reddit.com/r/stocks/new
+2026-03-04 02:31:06,817 [WARNING] Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1ri697d/
+2026-03-04 02:31:22,095 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 02:31:22,118 [INFO] Saved 0 new posts and 17 new comments for /r/stocks
+2026-03-04 02:31:22,118 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 02:31:51,013 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 02:31:51,030 [INFO] Saved 0 new posts and 27 new comments for /r/investing
+2026-03-04 02:31:51,030 [INFO] Refreshing comments for 49 active posts
+2026-03-04 02:32:47,547 [INFO] Removed 62 stale active posts
+2026-03-04 02:32:47,548 [INFO] Run finished: 0 new posts, 44 new comments in 165.88 seconds
+2026-03-04 03:00:01,945 [INFO] Reddit client initialised
+2026-03-04 03:00:01,945 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 03:00:45,328 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 03:00:45,354 [INFO] Saved 0 new posts and 18 new comments for /r/stocks
+2026-03-04 03:00:45,354 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 03:01:11,172 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 03:01:11,200 [INFO] Saved 0 new posts and 10 new comments for /r/investing
+2026-03-04 03:01:11,200 [INFO] Refreshing comments for 48 active posts
+2026-03-04 03:01:51,997 [INFO] Removed 61 stale active posts
+2026-03-04 03:01:51,997 [INFO] Run finished: 0 new posts, 28 new comments in 110.05 seconds
+2026-03-04 03:30:01,421 [INFO] Reddit client initialised
+2026-03-04 03:30:01,421 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 03:30:30,920 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 03:30:30,940 [INFO] Saved 3 new posts and 43 new comments for /r/stocks
+2026-03-04 03:30:30,941 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 03:30:48,733 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 03:30:48,760 [INFO] Saved 3 new posts and 34 new comments for /r/investing
+2026-03-04 03:30:48,761 [INFO] Refreshing comments for 53 active posts
+2026-03-04 03:31:16,172 [INFO] Removed 61 stale active posts
+2026-03-04 03:31:16,173 [INFO] Run finished: 6 new posts, 77 new comments in 74.75 seconds
+2026-03-04 04:00:01,244 [INFO] Reddit client initialised
+2026-03-04 04:00:01,244 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 04:00:34,710 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 04:00:34,741 [INFO] Saved 0 new posts and 60 new comments for /r/stocks
+2026-03-04 04:00:34,742 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 04:00:52,923 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 04:00:52,939 [INFO] Saved 0 new posts and 39 new comments for /r/investing
+2026-03-04 04:00:52,939 [INFO] Refreshing comments for 53 active posts
+2026-03-04 04:01:21,477 [INFO] Removed 59 stale active posts
+2026-03-04 04:01:21,477 [INFO] Run finished: 0 new posts, 99 new comments in 80.23 seconds
+2026-03-04 04:30:02,229 [INFO] Reddit client initialised
+2026-03-04 04:30:02,229 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 04:30:34,578 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 04:30:34,605 [INFO] Saved 0 new posts and 28 new comments for /r/stocks
+2026-03-04 04:30:34,606 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 04:30:51,798 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 04:30:51,823 [INFO] Saved 0 new posts and 26 new comments for /r/investing
+2026-03-04 04:30:51,823 [INFO] Refreshing comments for 53 active posts
+2026-03-04 04:31:19,797 [INFO] Removed 59 stale active posts
+2026-03-04 04:31:19,797 [INFO] Run finished: 0 new posts, 54 new comments in 77.57 seconds
+2026-03-04 05:00:01,932 [INFO] Reddit client initialised
+2026-03-04 05:00:01,932 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 05:00:34,782 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 05:00:34,813 [INFO] Saved 3 new posts and 36 new comments for /r/stocks
+2026-03-04 05:00:34,813 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 05:00:52,666 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 05:00:52,678 [INFO] Saved 2 new posts and 27 new comments for /r/investing
+2026-03-04 05:00:52,678 [INFO] Refreshing comments for 58 active posts
+2026-03-04 05:01:23,594 [INFO] Removed 56 stale active posts
+2026-03-04 05:01:23,594 [INFO] Run finished: 5 new posts, 63 new comments in 81.66 seconds
+2026-03-04 05:30:01,376 [INFO] Reddit client initialised
+2026-03-04 05:30:01,376 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 05:30:35,756 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 05:30:35,779 [INFO] Saved 0 new posts and 36 new comments for /r/stocks
+2026-03-04 05:30:35,780 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 05:30:53,121 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 05:30:53,140 [INFO] Saved 0 new posts and 14 new comments for /r/investing
+2026-03-04 05:30:53,140 [INFO] Refreshing comments for 56 active posts
+2026-03-04 05:31:21,368 [INFO] Removed 55 stale active posts
+2026-03-04 05:31:21,368 [INFO] Run finished: 0 new posts, 50 new comments in 79.99 seconds
+2026-03-04 06:00:01,234 [INFO] Reddit client initialised
+2026-03-04 06:00:01,234 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 06:00:35,807 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 06:00:35,838 [INFO] Saved 1 new posts and 29 new comments for /r/stocks
+2026-03-04 06:00:35,838 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 06:00:55,096 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 06:00:55,107 [INFO] Saved 0 new posts and 12 new comments for /r/investing
+2026-03-04 06:00:55,107 [INFO] Refreshing comments for 57 active posts
+2026-03-04 06:01:23,368 [INFO] Removed 56 stale active posts
+2026-03-04 06:01:23,368 [INFO] Run finished: 1 new posts, 41 new comments in 82.14 seconds
+2026-03-04 06:30:01,317 [INFO] Reddit client initialised
+2026-03-04 06:30:01,317 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 06:30:33,282 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 06:30:33,306 [INFO] Saved 1 new posts and 40 new comments for /r/stocks
+2026-03-04 06:30:33,306 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 06:30:50,106 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 06:30:50,122 [INFO] Saved 1 new posts and 17 new comments for /r/investing
+2026-03-04 06:30:50,123 [INFO] Refreshing comments for 59 active posts
+2026-03-04 06:31:20,011 [INFO] Removed 56 stale active posts
+2026-03-04 06:31:20,012 [INFO] Run finished: 2 new posts, 57 new comments in 78.70 seconds
+2026-03-04 07:00:01,955 [INFO] Reddit client initialised
+2026-03-04 07:00:01,956 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 07:00:36,490 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 07:00:36,543 [INFO] Saved 0 new posts and 24 new comments for /r/stocks
+2026-03-04 07:00:36,543 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 07:00:54,318 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 07:00:54,340 [INFO] Saved 0 new posts and 6 new comments for /r/investing
+2026-03-04 07:00:54,341 [INFO] Refreshing comments for 57 active posts
+2026-03-04 07:01:22,503 [INFO] Removed 58 stale active posts
+2026-03-04 07:01:22,503 [INFO] Run finished: 0 new posts, 30 new comments in 80.55 seconds
+2026-03-04 07:30:02,138 [INFO] Reddit client initialised
+2026-03-04 07:30:02,146 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 07:30:33,073 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 07:30:33,097 [INFO] Saved 2 new posts and 18 new comments for /r/stocks
+2026-03-04 07:30:33,097 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 07:30:49,010 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 07:30:49,026 [INFO] Saved 0 new posts and 3 new comments for /r/investing
+2026-03-04 07:30:49,026 [INFO] Refreshing comments for 59 active posts
+2026-03-04 07:31:17,969 [INFO] Removed 51 stale active posts
+2026-03-04 07:31:17,970 [INFO] Run finished: 2 new posts, 21 new comments in 75.83 seconds
+2026-03-04 08:00:01,238 [INFO] Reddit client initialised
+2026-03-04 08:00:01,238 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 08:00:34,353 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 08:00:34,401 [INFO] Saved 2 new posts and 32 new comments for /r/stocks
+2026-03-04 08:00:34,402 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 08:00:52,591 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 08:00:52,617 [INFO] Saved 0 new posts and 7 new comments for /r/investing
+2026-03-04 08:00:52,617 [INFO] Refreshing comments for 61 active posts
+2026-03-04 08:01:22,799 [INFO] Removed 55 stale active posts
+2026-03-04 08:01:22,799 [INFO] Run finished: 2 new posts, 39 new comments in 81.56 seconds
+2026-03-04 08:30:01,318 [INFO] Reddit client initialised
+2026-03-04 08:30:01,318 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 08:30:32,068 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 08:30:32,088 [INFO] Saved 2 new posts and 52 new comments for /r/stocks
+2026-03-04 08:30:32,089 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 08:30:49,264 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 08:30:49,291 [INFO] Saved 0 new posts and 8 new comments for /r/investing
+2026-03-04 08:30:49,292 [INFO] Refreshing comments for 63 active posts
+2026-03-04 08:31:20,261 [INFO] Removed 53 stale active posts
+2026-03-04 08:31:20,262 [INFO] Run finished: 2 new posts, 60 new comments in 78.94 seconds
+2026-03-04 09:00:01,738 [INFO] Reddit client initialised
+2026-03-04 09:00:01,738 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 09:00:33,041 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 09:00:33,071 [INFO] Saved 0 new posts and 57 new comments for /r/stocks
+2026-03-04 09:00:33,071 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 09:00:49,682 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 09:00:49,705 [INFO] Saved 0 new posts and 3 new comments for /r/investing
+2026-03-04 09:00:49,706 [INFO] Refreshing comments for 62 active posts
+2026-03-04 09:01:20,547 [INFO] Removed 53 stale active posts
+2026-03-04 09:01:20,548 [INFO] Run finished: 0 new posts, 60 new comments in 78.81 seconds
+2026-03-04 09:30:01,427 [INFO] Reddit client initialised
+2026-03-04 09:30:01,427 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 09:30:32,247 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 09:30:32,270 [INFO] Saved 0 new posts and 21 new comments for /r/stocks
+2026-03-04 09:30:32,270 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 09:30:48,265 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 09:30:48,289 [INFO] Saved 1 new posts and 12 new comments for /r/investing
+2026-03-04 09:30:48,290 [INFO] Refreshing comments for 63 active posts
+2026-03-04 09:31:19,959 [INFO] Removed 49 stale active posts
+2026-03-04 09:31:19,959 [INFO] Run finished: 1 new posts, 33 new comments in 78.53 seconds
+2026-03-04 10:00:01,536 [INFO] Reddit client initialised
+2026-03-04 10:00:01,536 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 10:00:31,391 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 10:00:31,431 [INFO] Saved 1 new posts and 20 new comments for /r/stocks
+2026-03-04 10:00:31,431 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 10:00:48,729 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 10:00:48,771 [INFO] Saved 1 new posts and 3 new comments for /r/investing
+2026-03-04 10:00:48,772 [INFO] Refreshing comments for 65 active posts
+2026-03-04 10:01:20,989 [INFO] Removed 53 stale active posts
+2026-03-04 10:01:20,989 [INFO] Run finished: 2 new posts, 23 new comments in 79.45 seconds
+2026-03-04 10:30:02,172 [INFO] Reddit client initialised
+2026-03-04 10:30:02,173 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 10:30:31,735 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 10:30:31,746 [INFO] Saved 1 new posts and 13 new comments for /r/stocks
+2026-03-04 10:30:31,746 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 10:30:49,250 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 10:30:49,274 [INFO] Saved 0 new posts and 8 new comments for /r/investing
+2026-03-04 10:30:49,275 [INFO] Refreshing comments for 65 active posts
+2026-03-04 10:31:19,118 [INFO] Removed 51 stale active posts
+2026-03-04 10:31:19,118 [INFO] Run finished: 1 new posts, 21 new comments in 76.95 seconds
+2026-03-04 11:00:01,826 [INFO] Reddit client initialised
+2026-03-04 11:00:01,826 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 11:00:35,218 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 11:00:35,259 [INFO] Saved 1 new posts and 22 new comments for /r/stocks
+2026-03-04 11:00:35,259 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 11:00:55,176 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 11:00:55,214 [INFO] Saved 0 new posts and 11 new comments for /r/investing
+2026-03-04 11:00:55,215 [INFO] Refreshing comments for 66 active posts
+2026-03-04 11:01:30,459 [INFO] Removed 49 stale active posts
+2026-03-04 11:01:30,459 [INFO] Run finished: 1 new posts, 33 new comments in 88.63 seconds
+2026-03-04 11:30:01,775 [INFO] Reddit client initialised
+2026-03-04 11:30:01,776 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 11:30:28,785 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 11:30:28,814 [INFO] Saved 1 new posts and 26 new comments for /r/stocks
+2026-03-04 11:30:28,814 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 11:30:44,833 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 11:30:44,857 [INFO] Saved 0 new posts and 12 new comments for /r/investing
+2026-03-04 11:30:44,858 [INFO] Refreshing comments for 65 active posts
+2026-03-04 11:31:13,694 [INFO] Removed 48 stale active posts
+2026-03-04 11:31:13,694 [INFO] Run finished: 1 new posts, 38 new comments in 71.92 seconds
+2026-03-04 12:00:02,027 [INFO] Reddit client initialised
+2026-03-04 12:00:02,027 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 12:00:31,062 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 12:00:31,085 [INFO] Saved 2 new posts and 18 new comments for /r/stocks
+2026-03-04 12:00:31,085 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 12:00:49,003 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 12:00:49,019 [INFO] Saved 0 new posts and 9 new comments for /r/investing
+2026-03-04 12:00:49,020 [INFO] Refreshing comments for 65 active posts
+2026-03-04 12:01:18,978 [INFO] Removed 54 stale active posts
+2026-03-04 12:01:18,978 [INFO] Run finished: 2 new posts, 27 new comments in 76.95 seconds
+2026-03-04 12:30:01,702 [INFO] Reddit client initialised
+2026-03-04 12:30:01,702 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 12:30:55,761 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 12:30:55,786 [INFO] Saved 1 new posts and 38 new comments for /r/stocks
+2026-03-04 12:30:55,786 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 12:31:24,286 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 12:31:24,311 [INFO] Saved 0 new posts and 5 new comments for /r/investing
+2026-03-04 12:31:24,311 [INFO] Refreshing comments for 64 active posts
+2026-03-04 12:32:04,039 [INFO] Removed 54 stale active posts
+2026-03-04 12:32:04,040 [INFO] Run finished: 1 new posts, 43 new comments in 122.34 seconds
+2026-03-04 13:00:01,722 [INFO] Reddit client initialised
+2026-03-04 13:00:01,723 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 13:00:33,842 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 13:00:33,885 [INFO] Saved 2 new posts and 54 new comments for /r/stocks
+2026-03-04 13:00:33,885 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 13:00:52,615 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 13:00:52,638 [INFO] Saved 0 new posts and 11 new comments for /r/investing
+2026-03-04 13:00:52,638 [INFO] Refreshing comments for 65 active posts
+2026-03-04 13:01:23,426 [INFO] Removed 57 stale active posts
+2026-03-04 13:01:23,426 [INFO] Run finished: 2 new posts, 65 new comments in 81.70 seconds
+2026-03-04 13:30:01,730 [INFO] Reddit client initialised
+2026-03-04 13:30:01,731 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 13:30:30,582 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 13:30:30,615 [INFO] Saved 0 new posts and 54 new comments for /r/stocks
+2026-03-04 13:30:30,615 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 13:30:47,343 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 13:30:47,367 [INFO] Saved 2 new posts and 6 new comments for /r/investing
+2026-03-04 13:30:47,367 [INFO] Refreshing comments for 67 active posts
+2026-03-04 13:31:17,065 [INFO] Removed 49 stale active posts
+2026-03-04 13:31:17,065 [INFO] Run finished: 2 new posts, 60 new comments in 75.34 seconds
+2026-03-04 14:00:01,813 [INFO] Reddit client initialised
+2026-03-04 14:00:01,813 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 14:00:36,489 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 14:00:36,521 [INFO] Saved 1 new posts and 65 new comments for /r/stocks
+2026-03-04 14:00:36,521 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 14:00:54,830 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 14:00:54,845 [INFO] Saved 0 new posts and 10 new comments for /r/investing
+2026-03-04 14:00:54,846 [INFO] Refreshing comments for 67 active posts
+2026-03-04 14:01:26,027 [INFO] Removed 56 stale active posts
+2026-03-04 14:01:26,028 [INFO] Run finished: 1 new posts, 75 new comments in 84.22 seconds
+2026-03-04 14:30:02,121 [INFO] Reddit client initialised
+2026-03-04 14:30:02,129 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 14:30:39,982 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 14:30:40,025 [INFO] Saved 0 new posts and 55 new comments for /r/stocks
+2026-03-04 14:30:40,026 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 14:31:01,060 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 14:31:01,080 [INFO] Saved 0 new posts and 9 new comments for /r/investing
+2026-03-04 14:31:01,080 [INFO] Refreshing comments for 66 active posts
+2026-03-04 14:31:34,521 [INFO] Removed 57 stale active posts
+2026-03-04 14:31:34,521 [INFO] Run finished: 0 new posts, 64 new comments in 92.40 seconds
+2026-03-04 15:00:01,306 [INFO] Reddit client initialised
+2026-03-04 15:00:01,306 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 15:00:52,695 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 15:00:52,726 [INFO] Saved 2 new posts and 43 new comments for /r/stocks
+2026-03-04 15:00:52,726 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 15:01:24,251 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 15:01:24,279 [INFO] Saved 1 new posts and 8 new comments for /r/investing
+2026-03-04 15:01:24,280 [INFO] Refreshing comments for 63 active posts
+2026-03-04 15:02:13,277 [INFO] Removed 53 stale active posts
+2026-03-04 15:02:13,277 [INFO] Run finished: 3 new posts, 51 new comments in 131.97 seconds
+2026-03-04 15:30:02,068 [INFO] Reddit client initialised
+2026-03-04 15:30:02,068 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 15:30:30,850 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 15:30:30,861 [INFO] Saved 1 new posts and 51 new comments for /r/stocks
+2026-03-04 15:30:30,861 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 15:30:48,052 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 15:30:48,078 [INFO] Saved 1 new posts and 19 new comments for /r/investing
+2026-03-04 15:30:48,078 [INFO] Refreshing comments for 64 active posts
+2026-03-04 15:31:17,399 [INFO] Removed 45 stale active posts
+2026-03-04 15:31:17,399 [INFO] Run finished: 2 new posts, 70 new comments in 75.33 seconds
+2026-03-04 16:00:01,852 [INFO] Reddit client initialised
+2026-03-04 16:00:01,853 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 16:00:31,942 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 16:00:31,962 [INFO] Saved 2 new posts and 42 new comments for /r/stocks
+2026-03-04 16:00:31,962 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 16:00:48,795 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 16:00:48,818 [INFO] Saved 3 new posts and 26 new comments for /r/investing
+2026-03-04 16:00:48,818 [INFO] Refreshing comments for 66 active posts
+2026-03-04 16:01:19,965 [INFO] Removed 52 stale active posts
+2026-03-04 16:01:19,965 [INFO] Run finished: 5 new posts, 68 new comments in 78.11 seconds
+2026-03-04 16:30:01,479 [INFO] Reddit client initialised
+2026-03-04 16:30:01,480 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 16:30:29,522 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 16:30:29,535 [INFO] Saved 2 new posts and 63 new comments for /r/stocks
+2026-03-04 16:30:29,535 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 16:30:47,819 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 16:30:47,841 [INFO] Saved 0 new posts and 4 new comments for /r/investing
+2026-03-04 16:30:47,842 [INFO] Refreshing comments for 65 active posts
+2026-03-04 16:31:16,799 [INFO] Removed 51 stale active posts
+2026-03-04 16:31:16,799 [INFO] Run finished: 2 new posts, 67 new comments in 75.32 seconds
+2026-03-04 17:00:01,513 [INFO] Reddit client initialised
+2026-03-04 17:00:01,513 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 17:00:30,387 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 17:00:30,423 [INFO] Saved 0 new posts and 52 new comments for /r/stocks
+2026-03-04 17:00:30,423 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 17:00:48,199 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 17:00:48,226 [INFO] Saved 0 new posts and 11 new comments for /r/investing
+2026-03-04 17:00:48,227 [INFO] Refreshing comments for 62 active posts
+2026-03-04 17:01:16,130 [INFO] Removed 60 stale active posts
+2026-03-04 17:01:16,131 [INFO] Run finished: 0 new posts, 63 new comments in 74.62 seconds
+2026-03-04 17:30:01,354 [INFO] Reddit client initialised
+2026-03-04 17:30:01,355 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 17:30:40,249 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 17:30:40,274 [INFO] Saved 0 new posts and 25 new comments for /r/stocks
+2026-03-04 17:30:40,274 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 17:31:03,358 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 17:31:03,399 [INFO] Saved 2 new posts and 15 new comments for /r/investing
+2026-03-04 17:31:03,400 [INFO] Refreshing comments for 61 active posts
+2026-03-04 17:31:44,473 [INFO] Removed 51 stale active posts
+2026-03-04 17:31:44,473 [INFO] Run finished: 2 new posts, 40 new comments in 103.12 seconds
+2026-03-04 18:00:01,621 [INFO] Reddit client initialised
+2026-03-04 18:00:01,621 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 18:00:30,150 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 18:00:30,180 [INFO] Saved 1 new posts and 27 new comments for /r/stocks
+2026-03-04 18:00:30,180 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 18:00:47,044 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 18:00:47,072 [INFO] Saved 2 new posts and 21 new comments for /r/investing
+2026-03-04 18:00:47,072 [INFO] Refreshing comments for 63 active posts
+2026-03-04 18:01:16,407 [INFO] Removed 56 stale active posts
+2026-03-04 18:01:16,407 [INFO] Run finished: 3 new posts, 48 new comments in 74.79 seconds
+2026-03-04 18:30:02,201 [INFO] Reddit client initialised
+2026-03-04 18:30:02,202 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 18:30:30,794 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 18:30:30,836 [INFO] Saved 1 new posts and 32 new comments for /r/stocks
+2026-03-04 18:30:30,836 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 18:30:46,253 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 18:30:46,287 [INFO] Saved 1 new posts and 14 new comments for /r/investing
+2026-03-04 18:30:46,287 [INFO] Refreshing comments for 63 active posts
+2026-03-04 18:31:16,289 [INFO] Removed 51 stale active posts
+2026-03-04 18:31:16,289 [INFO] Run finished: 2 new posts, 46 new comments in 74.09 seconds
+2026-03-04 19:00:01,737 [INFO] Reddit client initialised
+2026-03-04 19:00:01,737 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 19:00:42,271 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 19:00:42,294 [INFO] Saved 3 new posts and 28 new comments for /r/stocks
+2026-03-04 19:00:42,294 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 19:01:05,194 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 19:01:05,211 [INFO] Saved 0 new posts and 24 new comments for /r/investing
+2026-03-04 19:01:05,212 [INFO] Refreshing comments for 66 active posts
+2026-03-04 19:01:45,182 [INFO] Removed 56 stale active posts
+2026-03-04 19:01:45,183 [INFO] Run finished: 3 new posts, 52 new comments in 103.45 seconds
+2026-03-04 19:30:01,867 [INFO] Reddit client initialised
+2026-03-04 19:30:01,867 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 19:30:28,937 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 19:30:28,966 [INFO] Saved 1 new posts and 37 new comments for /r/stocks
+2026-03-04 19:30:28,966 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 19:30:44,607 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 19:30:44,631 [INFO] Saved 3 new posts and 20 new comments for /r/investing
+2026-03-04 19:30:44,632 [INFO] Refreshing comments for 68 active posts
+2026-03-04 19:31:14,851 [INFO] Removed 48 stale active posts
+2026-03-04 19:31:14,851 [INFO] Run finished: 4 new posts, 57 new comments in 72.99 seconds
+2026-03-04 20:00:01,738 [INFO] Reddit client initialised
+2026-03-04 20:00:01,738 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 20:00:31,669 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 20:00:31,680 [INFO] Saved 1 new posts and 90 new comments for /r/stocks
+2026-03-04 20:00:31,680 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 20:00:49,659 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 20:00:49,680 [INFO] Saved 0 new posts and 11 new comments for /r/investing
+2026-03-04 20:00:49,680 [INFO] Refreshing comments for 68 active posts
+2026-03-04 20:01:20,039 [INFO] Removed 50 stale active posts
+2026-03-04 20:01:20,039 [INFO] Run finished: 1 new posts, 101 new comments in 78.30 seconds
+2026-03-04 20:30:01,390 [INFO] Reddit client initialised
+2026-03-04 20:30:01,391 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 20:30:31,691 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 20:30:31,713 [INFO] Saved 1 new posts and 52 new comments for /r/stocks
+2026-03-04 20:30:31,713 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 20:30:47,202 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 20:30:47,223 [INFO] Saved 1 new posts and 13 new comments for /r/investing
+2026-03-04 20:30:47,224 [INFO] Refreshing comments for 69 active posts
+2026-03-04 20:31:16,449 [INFO] Removed 47 stale active posts
+2026-03-04 20:31:16,450 [INFO] Run finished: 2 new posts, 65 new comments in 75.06 seconds
+2026-03-04 21:00:02,179 [INFO] Reddit client initialised
+2026-03-04 21:00:02,179 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 21:00:25,221 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 21:00:25,241 [INFO] Saved 2 new posts and 55 new comments for /r/stocks
+2026-03-04 21:00:25,241 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 21:00:41,331 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 21:00:41,349 [INFO] Saved 0 new posts and 18 new comments for /r/investing
+2026-03-04 21:00:41,349 [INFO] Refreshing comments for 69 active posts
+2026-03-04 21:01:12,325 [INFO] Removed 56 stale active posts
+2026-03-04 21:01:12,325 [INFO] Run finished: 2 new posts, 73 new comments in 70.15 seconds
+2026-03-04 21:30:01,794 [INFO] Reddit client initialised
+2026-03-04 21:30:01,795 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 21:30:24,317 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 21:30:24,346 [INFO] Saved 1 new posts and 58 new comments for /r/stocks
+2026-03-04 21:30:24,347 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 21:30:40,751 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 21:30:40,773 [INFO] Saved 0 new posts and 13 new comments for /r/investing
+2026-03-04 21:30:40,773 [INFO] Refreshing comments for 66 active posts
+2026-03-04 21:31:10,312 [INFO] Removed 47 stale active posts
+2026-03-04 21:31:10,312 [INFO] Run finished: 1 new posts, 71 new comments in 68.52 seconds
+2026-03-04 22:00:01,885 [INFO] Reddit client initialised
+2026-03-04 22:00:01,885 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 22:00:25,665 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 22:00:25,702 [INFO] Saved 1 new posts and 92 new comments for /r/stocks
+2026-03-04 22:00:25,702 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 22:00:41,969 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 22:00:41,978 [INFO] Saved 0 new posts and 13 new comments for /r/investing
+2026-03-04 22:00:41,978 [INFO] Refreshing comments for 65 active posts
+2026-03-04 22:01:12,877 [INFO] Removed 50 stale active posts
+2026-03-04 22:01:12,877 [INFO] Run finished: 1 new posts, 105 new comments in 70.99 seconds
+2026-03-04 22:30:01,767 [INFO] Reddit client initialised
+2026-03-04 22:30:01,767 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 22:31:46,423 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 22:31:46,460 [INFO] Saved 0 new posts and 71 new comments for /r/stocks
+2026-03-04 22:31:46,460 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 22:32:33,585 [WARNING] Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1rk11eo/
+2026-03-04 22:32:44,472 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 22:32:44,512 [INFO] Saved 2 new posts and 13 new comments for /r/investing
+2026-03-04 22:32:44,513 [INFO] Refreshing comments for 65 active posts
+2026-03-04 22:33:27,711 [INFO] Removed 49 stale active posts
+2026-03-04 22:33:27,712 [INFO] Run finished: 2 new posts, 84 new comments in 205.95 seconds
+2026-03-04 23:00:01,870 [INFO] Reddit client initialised
+2026-03-04 23:00:01,870 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 23:00:49,221 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 23:00:49,248 [INFO] Saved 0 new posts and 43 new comments for /r/stocks
+2026-03-04 23:00:49,248 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 23:01:13,695 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 23:01:13,724 [INFO] Saved 0 new posts and 7 new comments for /r/investing
+2026-03-04 23:01:13,724 [INFO] Refreshing comments for 63 active posts
+2026-03-04 23:02:04,333 [INFO] Removed 62 stale active posts
+2026-03-04 23:02:04,333 [INFO] Run finished: 0 new posts, 50 new comments in 122.46 seconds
+2026-03-04 23:30:02,048 [INFO] Reddit client initialised
+2026-03-04 23:30:02,048 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 23:30:28,709 [INFO] Fetched 50 posts from /r/stocks
+2026-03-04 23:30:28,737 [INFO] Saved 1 new posts and 30 new comments for /r/stocks
+2026-03-04 23:30:28,738 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-04 23:30:44,915 [INFO] Fetched 50 posts from /r/investing
+2026-03-04 23:30:44,943 [INFO] Saved 0 new posts and 11 new comments for /r/investing
+2026-03-04 23:30:44,943 [INFO] Refreshing comments for 60 active posts
+2026-03-04 23:31:14,449 [INFO] Removed 55 stale active posts
+2026-03-04 23:31:14,449 [INFO] Run finished: 1 new posts, 41 new comments in 72.40 seconds
+2026-03-05 00:00:01,888 [INFO] Reddit client initialised
+2026-03-05 00:00:01,888 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 00:00:28,290 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 00:00:28,319 [INFO] Saved 1 new posts and 26 new comments for /r/stocks
+2026-03-05 00:00:28,319 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 00:00:45,023 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 00:00:45,056 [INFO] Saved 1 new posts and 11 new comments for /r/investing
+2026-03-05 00:00:45,057 [INFO] Refreshing comments for 59 active posts
+2026-03-05 00:01:11,542 [INFO] Removed 55 stale active posts
+2026-03-05 00:01:11,542 [INFO] Run finished: 2 new posts, 37 new comments in 69.65 seconds
+2026-03-05 00:30:01,464 [INFO] Reddit client initialised
+2026-03-05 00:30:01,464 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 00:30:29,235 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 00:30:29,278 [INFO] Saved 1 new posts and 36 new comments for /r/stocks
+2026-03-05 00:30:29,278 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 00:30:45,098 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 00:30:45,125 [INFO] Saved 0 new posts and 8 new comments for /r/investing
+2026-03-05 00:30:45,125 [INFO] Refreshing comments for 60 active posts
+2026-03-05 00:31:12,873 [INFO] Removed 54 stale active posts
+2026-03-05 00:31:12,873 [INFO] Run finished: 1 new posts, 44 new comments in 71.41 seconds
+2026-03-05 01:00:02,152 [INFO] Reddit client initialised
+2026-03-05 01:00:02,152 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 01:00:57,631 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 01:00:57,677 [INFO] Saved 2 new posts and 25 new comments for /r/stocks
+2026-03-05 01:00:57,677 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 01:01:38,622 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 01:01:38,665 [INFO] Saved 1 new posts and 15 new comments for /r/investing
+2026-03-05 01:01:38,666 [INFO] Refreshing comments for 60 active posts
+2026-03-05 01:02:32,657 [INFO] Removed 60 stale active posts
+2026-03-05 01:02:32,657 [INFO] Run finished: 3 new posts, 40 new comments in 150.51 seconds
+2026-03-05 01:30:01,424 [INFO] Reddit client initialised
+2026-03-05 01:30:01,425 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 01:30:27,230 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 01:30:27,252 [INFO] Saved 1 new posts and 25 new comments for /r/stocks
+2026-03-05 01:30:27,252 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 01:30:44,327 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 01:30:44,353 [INFO] Saved 0 new posts and 15 new comments for /r/investing
+2026-03-05 01:30:44,354 [INFO] Refreshing comments for 60 active posts
+2026-03-05 01:31:12,077 [INFO] Removed 53 stale active posts
+2026-03-05 01:31:12,077 [INFO] Run finished: 1 new posts, 40 new comments in 70.65 seconds
+2026-03-05 02:00:01,655 [INFO] Reddit client initialised
+2026-03-05 02:00:01,656 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 02:00:28,631 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 02:00:28,666 [INFO] Saved 0 new posts and 35 new comments for /r/stocks
+2026-03-05 02:00:28,666 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 02:00:45,159 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 02:00:45,179 [INFO] Saved 3 new posts and 26 new comments for /r/investing
+2026-03-05 02:00:45,179 [INFO] Refreshing comments for 63 active posts
+2026-03-05 02:01:14,377 [INFO] Removed 51 stale active posts
+2026-03-05 02:01:14,378 [INFO] Run finished: 3 new posts, 61 new comments in 72.72 seconds
+2026-03-05 02:30:01,320 [INFO] Reddit client initialised
+2026-03-05 02:30:01,320 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 02:30:25,227 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 02:30:25,266 [INFO] Saved 5 new posts and 36 new comments for /r/stocks
+2026-03-05 02:30:25,267 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 02:30:41,408 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 02:30:41,421 [INFO] Saved 0 new posts and 34 new comments for /r/investing
+2026-03-05 02:30:41,422 [INFO] Refreshing comments for 68 active posts
+2026-03-05 02:31:11,723 [INFO] Removed 49 stale active posts
+2026-03-05 02:31:11,723 [INFO] Run finished: 5 new posts, 70 new comments in 70.40 seconds
+2026-03-05 03:00:02,155 [INFO] Reddit client initialised
+2026-03-05 03:00:02,155 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 03:00:37,195 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 03:00:37,238 [INFO] Saved 0 new posts and 61 new comments for /r/stocks
+2026-03-05 03:00:37,238 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 03:00:53,511 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 03:00:53,540 [INFO] Saved 2 new posts and 44 new comments for /r/investing
+2026-03-05 03:00:53,540 [INFO] Refreshing comments for 59 active posts
+2026-03-05 03:01:21,245 [INFO] Removed 89 stale active posts
+2026-03-05 03:01:21,245 [INFO] Run finished: 2 new posts, 105 new comments in 79.09 seconds
+2026-03-05 03:30:01,852 [INFO] Reddit client initialised
+2026-03-05 03:30:01,852 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 03:30:27,592 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 03:30:27,619 [INFO] Saved 1 new posts and 47 new comments for /r/stocks
+2026-03-05 03:30:27,619 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 03:30:43,759 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 03:30:43,776 [INFO] Saved 0 new posts and 52 new comments for /r/investing
+2026-03-05 03:30:43,776 [INFO] Refreshing comments for 64 active posts
+2026-03-05 03:31:14,075 [INFO] Removed 53 stale active posts
+2026-03-05 03:31:14,075 [INFO] Run finished: 1 new posts, 99 new comments in 72.22 seconds
+2026-03-05 04:00:01,465 [INFO] Reddit client initialised
+2026-03-05 04:00:01,465 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 04:00:26,534 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 04:00:26,562 [INFO] Saved 0 new posts and 26 new comments for /r/stocks
+2026-03-05 04:00:26,562 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 04:00:43,799 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 04:00:43,833 [INFO] Saved 1 new posts and 29 new comments for /r/investing
+2026-03-05 04:00:43,833 [INFO] Refreshing comments for 65 active posts
+2026-03-05 04:01:14,930 [INFO] Removed 49 stale active posts
+2026-03-05 04:01:14,930 [INFO] Run finished: 1 new posts, 55 new comments in 73.47 seconds
+2026-03-05 04:30:01,591 [INFO] Reddit client initialised
+2026-03-05 04:30:01,592 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 04:30:32,649 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 04:30:32,686 [INFO] Saved 1 new posts and 21 new comments for /r/stocks
+2026-03-05 04:30:32,686 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 04:30:50,955 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 04:30:50,987 [INFO] Saved 0 new posts and 29 new comments for /r/investing
+2026-03-05 04:30:50,988 [INFO] Refreshing comments for 65 active posts
+2026-03-05 04:31:22,973 [INFO] Removed 45 stale active posts
+2026-03-05 04:31:22,973 [INFO] Run finished: 1 new posts, 50 new comments in 81.38 seconds
+2026-03-05 05:00:02,202 [INFO] Reddit client initialised
+2026-03-05 05:00:02,203 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 05:00:28,231 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 05:00:28,271 [INFO] Saved 0 new posts and 15 new comments for /r/stocks
+2026-03-05 05:00:28,271 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 05:00:46,734 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 05:00:46,758 [INFO] Saved 0 new posts and 31 new comments for /r/investing
+2026-03-05 05:00:46,759 [INFO] Refreshing comments for 60 active posts
+2026-03-05 05:01:16,781 [INFO] Removed 71 stale active posts
+2026-03-05 05:01:16,781 [INFO] Run finished: 0 new posts, 46 new comments in 74.58 seconds
+2026-03-05 05:30:01,619 [INFO] Reddit client initialised
+2026-03-05 05:30:01,620 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 05:30:27,506 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 05:30:27,522 [INFO] Saved 1 new posts and 24 new comments for /r/stocks
+2026-03-05 05:30:27,522 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 05:30:45,860 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 05:30:45,895 [INFO] Saved 0 new posts and 29 new comments for /r/investing
+2026-03-05 05:30:45,895 [INFO] Refreshing comments for 61 active posts
+2026-03-05 05:31:17,277 [INFO] Removed 54 stale active posts
+2026-03-05 05:31:17,277 [INFO] Run finished: 1 new posts, 53 new comments in 75.66 seconds
+2026-03-05 06:00:02,136 [INFO] Reddit client initialised
+2026-03-05 06:00:02,136 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 06:00:29,457 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 06:00:29,488 [INFO] Saved 2 new posts and 37 new comments for /r/stocks
+2026-03-05 06:00:29,488 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 06:00:47,855 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 06:00:47,881 [INFO] Saved 0 new posts and 27 new comments for /r/investing
+2026-03-05 06:00:47,881 [INFO] Refreshing comments for 62 active posts
+2026-03-05 06:01:19,276 [INFO] Removed 49 stale active posts
+2026-03-05 06:01:19,276 [INFO] Run finished: 2 new posts, 64 new comments in 77.14 seconds
+2026-03-05 06:30:01,676 [INFO] Reddit client initialised
+2026-03-05 06:30:01,677 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 06:30:27,429 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 06:30:27,457 [INFO] Saved 0 new posts and 21 new comments for /r/stocks
+2026-03-05 06:30:27,457 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 06:30:44,529 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 06:30:44,553 [INFO] Saved 0 new posts and 20 new comments for /r/investing
+2026-03-05 06:30:44,553 [INFO] Refreshing comments for 60 active posts
+2026-03-05 06:31:13,652 [INFO] Removed 42 stale active posts
+2026-03-05 06:31:13,653 [INFO] Run finished: 0 new posts, 41 new comments in 71.98 seconds
+2026-03-05 07:00:01,657 [INFO] Reddit client initialised
+2026-03-05 07:00:01,657 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 07:00:28,848 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 07:00:28,867 [INFO] Saved 2 new posts and 15 new comments for /r/stocks
+2026-03-05 07:00:28,867 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 07:00:46,708 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 07:00:46,739 [INFO] Saved 0 new posts and 14 new comments for /r/investing
+2026-03-05 07:00:46,740 [INFO] Refreshing comments for 62 active posts
+2026-03-05 07:01:17,751 [INFO] Removed 70 stale active posts
+2026-03-05 07:01:17,752 [INFO] Run finished: 2 new posts, 29 new comments in 76.10 seconds
+2026-03-05 07:30:01,423 [INFO] Reddit client initialised
+2026-03-05 07:30:01,424 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 07:30:29,088 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 07:30:29,098 [INFO] Saved 0 new posts and 18 new comments for /r/stocks
+2026-03-05 07:30:29,098 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 07:30:46,503 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 07:30:46,535 [INFO] Saved 0 new posts and 15 new comments for /r/investing
+2026-03-05 07:30:46,535 [INFO] Refreshing comments for 60 active posts
+2026-03-05 07:31:16,194 [INFO] Removed 55 stale active posts
+2026-03-05 07:31:16,194 [INFO] Run finished: 0 new posts, 33 new comments in 74.77 seconds
+2026-03-05 08:00:01,463 [INFO] Reddit client initialised
+2026-03-05 08:00:01,463 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 08:00:33,878 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 08:00:33,898 [INFO] Saved 0 new posts and 16 new comments for /r/stocks
+2026-03-05 08:00:33,898 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 08:00:51,340 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 08:00:51,374 [INFO] Saved 0 new posts and 10 new comments for /r/investing
+2026-03-05 08:00:51,374 [INFO] Refreshing comments for 59 active posts
+2026-03-05 08:01:21,253 [INFO] Removed 51 stale active posts
+2026-03-05 08:01:21,253 [INFO] Run finished: 0 new posts, 26 new comments in 79.79 seconds
+2026-03-05 08:30:02,098 [INFO] Reddit client initialised
+2026-03-05 08:30:02,099 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 08:30:28,401 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 08:30:28,433 [INFO] Saved 0 new posts and 14 new comments for /r/stocks
+2026-03-05 08:30:28,433 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 08:30:46,564 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 08:30:46,589 [INFO] Saved 1 new posts and 5 new comments for /r/investing
+2026-03-05 08:30:46,590 [INFO] Refreshing comments for 58 active posts
+2026-03-05 08:31:14,485 [INFO] Removed 47 stale active posts
+2026-03-05 08:31:14,485 [INFO] Run finished: 1 new posts, 19 new comments in 72.39 seconds
+2026-03-05 09:00:01,454 [INFO] Reddit client initialised
+2026-03-05 09:00:01,454 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 09:00:28,371 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 09:00:28,392 [INFO] Saved 0 new posts and 9 new comments for /r/stocks
+2026-03-05 09:00:28,392 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 09:00:45,096 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 09:00:45,121 [INFO] Saved 0 new posts and 8 new comments for /r/investing
+2026-03-05 09:00:45,121 [INFO] Refreshing comments for 57 active posts
+2026-03-05 09:01:11,983 [INFO] Removed 73 stale active posts
+2026-03-05 09:01:11,983 [INFO] Run finished: 0 new posts, 17 new comments in 70.53 seconds
+2026-03-05 09:30:01,608 [INFO] Reddit client initialised
+2026-03-05 09:30:01,608 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 09:30:59,725 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 09:30:59,761 [INFO] Saved 0 new posts and 15 new comments for /r/stocks
+2026-03-05 09:30:59,761 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 09:31:22,838 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 09:31:22,863 [INFO] Saved 1 new posts and 8 new comments for /r/investing
+2026-03-05 09:31:22,864 [INFO] Refreshing comments for 58 active posts
+2026-03-05 09:31:51,071 [INFO] Removed 55 stale active posts
+2026-03-05 09:31:51,072 [INFO] Run finished: 1 new posts, 23 new comments in 109.47 seconds
+2026-03-05 10:00:01,810 [INFO] Reddit client initialised
+2026-03-05 10:00:01,811 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 10:00:28,415 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 10:00:28,442 [INFO] Saved 1 new posts and 18 new comments for /r/stocks
+2026-03-05 10:00:28,442 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 10:00:45,731 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 10:00:45,766 [INFO] Saved 0 new posts and 6 new comments for /r/investing
+2026-03-05 10:00:45,767 [INFO] Refreshing comments for 57 active posts
+2026-03-05 10:01:12,484 [INFO] Removed 54 stale active posts
+2026-03-05 10:01:12,484 [INFO] Run finished: 1 new posts, 24 new comments in 70.67 seconds
+2026-03-05 10:30:01,581 [INFO] Reddit client initialised
+2026-03-05 10:30:01,581 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 10:31:23,522 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 10:31:23,550 [INFO] Saved 0 new posts and 12 new comments for /r/stocks
+2026-03-05 10:31:23,550 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 10:32:03,053 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 10:32:03,083 [INFO] Saved 2 new posts and 6 new comments for /r/investing
+2026-03-05 10:32:03,083 [INFO] Refreshing comments for 58 active posts
+2026-03-05 10:32:59,073 [INFO] Removed 47 stale active posts
+2026-03-05 10:32:59,073 [INFO] Run finished: 2 new posts, 18 new comments in 177.49 seconds
+2026-03-05 11:00:01,698 [INFO] Reddit client initialised
+2026-03-05 11:00:01,699 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 11:00:41,519 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 11:00:41,549 [INFO] Saved 1 new posts and 7 new comments for /r/stocks
+2026-03-05 11:00:41,549 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 11:01:08,098 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 11:01:08,124 [INFO] Saved 0 new posts and 13 new comments for /r/investing
+2026-03-05 11:01:08,124 [INFO] Refreshing comments for 59 active posts
+2026-03-05 11:01:58,461 [INFO] Removed 71 stale active posts
+2026-03-05 11:01:58,461 [INFO] Run finished: 1 new posts, 20 new comments in 116.76 seconds
+2026-03-05 11:30:01,573 [INFO] Reddit client initialised
+2026-03-05 11:30:01,574 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 11:30:35,758 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 11:30:35,788 [INFO] Saved 0 new posts and 9 new comments for /r/stocks
+2026-03-05 11:30:35,788 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 11:30:56,486 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 11:30:56,514 [INFO] Saved 0 new posts and 9 new comments for /r/investing
+2026-03-05 11:30:56,514 [INFO] Refreshing comments for 58 active posts
+2026-03-05 11:31:27,295 [INFO] Removed 53 stale active posts
+2026-03-05 11:31:27,295 [INFO] Run finished: 0 new posts, 18 new comments in 85.72 seconds
+2026-03-05 12:00:01,299 [INFO] Reddit client initialised
+2026-03-05 12:00:01,299 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 12:01:17,660 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 12:01:17,692 [INFO] Saved 0 new posts and 18 new comments for /r/stocks
+2026-03-05 12:01:17,692 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 12:02:19,926 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 12:02:19,965 [INFO] Saved 1 new posts and 10 new comments for /r/investing
+2026-03-05 12:02:19,965 [INFO] Refreshing comments for 59 active posts
+2026-03-05 12:03:22,736 [INFO] Removed 54 stale active posts
+2026-03-05 12:03:22,737 [INFO] Run finished: 1 new posts, 28 new comments in 201.44 seconds
+2026-03-05 12:30:02,182 [INFO] Reddit client initialised
+2026-03-05 12:30:02,182 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 12:30:27,914 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 12:30:27,952 [INFO] Saved 0 new posts and 23 new comments for /r/stocks
+2026-03-05 12:30:27,952 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 12:30:45,991 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 12:30:46,024 [INFO] Saved 0 new posts and 16 new comments for /r/investing
+2026-03-05 12:30:46,025 [INFO] Refreshing comments for 58 active posts
+2026-03-05 12:31:14,416 [INFO] Removed 47 stale active posts
+2026-03-05 12:31:14,417 [INFO] Run finished: 0 new posts, 39 new comments in 72.24 seconds
+2026-03-05 13:00:02,053 [INFO] Reddit client initialised
+2026-03-05 13:00:02,053 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 13:01:33,493 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 13:01:33,532 [INFO] Saved 1 new posts and 24 new comments for /r/stocks
+2026-03-05 13:01:33,532 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 13:03:05,194 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 13:03:05,219 [INFO] Saved 0 new posts and 24 new comments for /r/investing
+2026-03-05 13:03:05,219 [INFO] Refreshing comments for 57 active posts
+2026-03-05 13:04:12,818 [INFO] Removed 70 stale active posts
+2026-03-05 13:04:12,819 [INFO] Run finished: 1 new posts, 48 new comments in 250.77 seconds
+2026-03-05 13:30:01,896 [INFO] Reddit client initialised
+2026-03-05 13:30:01,896 [INFO] Fetching /r/stocks (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 13:31:02,554 [INFO] Fetched 50 posts from /r/stocks
+2026-03-05 13:31:02,574 [INFO] Saved 0 new posts and 21 new comments for /r/stocks
+2026-03-05 13:31:02,574 [INFO] Fetching /r/investing (50 posts, up to 100 comments/post, sort=new)
+2026-03-05 13:31:30,053 [INFO] Fetched 50 posts from /r/investing
+2026-03-05 13:31:30,077 [INFO] Saved 1 new posts and 12 new comments for /r/investing
+2026-03-05 13:31:30,077 [INFO] Refreshing comments for 56 active posts
+2026-03-05 13:32:12,195 [INFO] Removed 57 stale active posts
+2026-03-05 13:32:12,195 [INFO] Run finished: 1 new posts, 33 new comments in 130.30 seconds
