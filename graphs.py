@@ -4,7 +4,7 @@ import matplotlib.dates as mdates
 import pandas as pd
 matplotlib.use("Agg")
 
-MAG7 = ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA"]
+MAG7 = ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA", "MARKET"]
 
 for ticker in MAG7:
     sentiment = pd.read_csv(f"./csvs/{ticker}_daily_sentiment.csv")
@@ -20,13 +20,13 @@ for ticker in MAG7:
     sentiment["avg_compound_norm"] = (
         (sentiment["avg_compound_smooth"] - sentiment["avg_compound_smooth"].mean())
         / sentiment["avg_compound_smooth"].std()
-    ) * 10
+    )
     lower = sentiment["avg_compound_norm"].quantile(0.05)
     upper = sentiment["avg_compound_norm"].quantile(0.95)
     sentiment["avg_compound_norm"] = sentiment["avg_compound_norm"].clip(lower, upper)
 
-    # stock price - normalised
-    stock["close_norm"] = (stock["Close"] - stock["Close"].mean()) / stock["Close"].std() * 100
+    # stock price - z-score
+    stock["close_norm"] = (stock["Close"] - stock["Close"].mean()) / stock["Close"].std()
 
     # % change - z-score
     stock["pct_change"] = stock["Close"].pct_change() * 100
@@ -48,23 +48,23 @@ for ticker in MAG7:
     ax_top_r = ax_top.twinx()
     ax_top_r.plot(sentiment["date"], sentiment["avg_compound_norm"],
                   color="blue", linestyle="-", label="Normalised Sentiment")
-    ax_top_r.set_ylabel("Normalised Sentiment")
+    ax_top_r.set_ylabel("Sentiment z-score")
 
     lines1, labels1 = ax_top.get_legend_handles_labels()
     lines2, labels2 = ax_top_r.get_legend_handles_labels()
     ax_top.legend(lines1 + lines2, labels1 + labels2, loc="upper left")
-    ax_top.set_title(f"{ticker} Normalised Price vs Reddit Sentiment")
+    ax_top.set_title(f"{ticker} Price vs Reddit Sentiment")
     ax_top.grid(True)
 
     # ── bottom plot: % change + sentiment ────────────────────────────────
     ax_bot.plot(stock["date"], stock["pct_change_norm"],
-                color="green", linestyle=":", label="% Change")
-    ax_bot.set_ylabel("% Change (normalised)")
+                color="red", linestyle="--", label="% Change")
+    ax_bot.set_ylabel("% Change z-score")
 
     ax_bot_r = ax_bot.twinx()
     ax_bot_r.plot(sentiment["date"], sentiment["avg_compound_norm"],
                   color="blue", linestyle="-", label="Normalised Sentiment")
-    ax_bot_r.set_ylabel("Normalised Sentiment")
+    ax_bot_r.set_ylabel("Sentiment z-score")
 
     lines3, labels3 = ax_bot.get_legend_handles_labels()
     lines4, labels4 = ax_bot_r.get_legend_handles_labels()

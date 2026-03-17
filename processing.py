@@ -114,7 +114,6 @@ def utc_to_date(ts):
         return None
 
 def populate_mentions(conn, posts, comments):
-    c = conn.cursor()
     buckets = {t: [] for t in MAG7}
 
     def scan(df, src):
@@ -153,6 +152,13 @@ def populate_mentions(conn, posts, comments):
         
 
 # ── SentiStrength ─────────────────────────────────────────────────────────────
+
+def roll_to_monday(date):
+    if date.weekday() == 5:   # Saturday
+        return date + pd.Timedelta(days=2)
+    elif date.weekday() == 6:  # Sunday
+        return date + pd.Timedelta(days=1)
+    return date
 
 def run_sentistrength():
     for ticker in MAG7:
@@ -201,13 +207,6 @@ def append_sentiment_scores():
         # roll weekend sentiment into Monday
         daily["date"] = pd.to_datetime(daily["date"])
 
-        def roll_to_monday(date):
-            if date.weekday() == 5:   # Saturday
-                return date + pd.Timedelta(days=2)
-            elif date.weekday() == 6:  # Sunday
-                return date + pd.Timedelta(days=1)
-            return date
-
         daily["date"] = daily["date"].apply(roll_to_monday)
 
         # re-aggregate in case multiple days now share the same Monday
@@ -226,18 +225,104 @@ def append_sentiment_scores():
         daily.to_csv(f"./csvs/{ticker}_daily_sentiment.csv", index=False)
         log.info(f"  {ticker}: daily sentiment written ({len(daily)} days)")
 
+
+# ── Entire Market ────────────────────────────────────────────────────
+
+def aggregate_market_sentiment(conn):
+    log.info("Loading all comments for market sentiment...")
+    comments = pd.read_sql_query(
+        "SELECT id, body, score, created_utc FROM comments", conn)
+    posts = pd.read_sql_query(
+        "SELECT id, title, selftext, score, created_utc FROM posts", conn)
+
+    comments["body"] = comments["body"].apply(clean_text)
+    posts["body"] = (
+        (posts["title"].fillna("") + " " + posts["selftext"].fillna(""))
+        .str.strip().apply(clean_text))
+
+    comments = comments.dropna(subset=["body"])
+    posts     = posts.dropna(subset=["body"])
+
+    # combine into one
+    all_text = pd.concat([
+        comments[["id","body","score","created_utc"]],
+        posts[["id","body","score","created_utc"]]
+    ]).reset_index(drop=True)
+
+    all_text["date"] = all_text["created_utc"].apply(utc_to_date)
+    all_text["date"] = pd.to_datetime(all_text["date"])
+
+    # roll weekends into Monday
+    all_text["date"] = all_text["date"].apply(roll_to_monday)
+
+    all_text.to_csv("./input/MARKET.txt", index=False, header=False)
+
+    # write input file with id and body
+    with open("./input/MARKET.txt", "w", encoding="utf-8") as f:
+        for _, row in tqdm(all_text.iterrows(), total=len(all_text), desc="Writing market input"):
+            body = row["body"].replace("\n", " ").replace("\t", " ")
+            f.write(f"{row['id']}\t{body}\n")
+
+    log.info(f"Market input written: {len(all_text):,} texts")
+
+    # run sentistrength
+    subprocess.run([
+        "java", "-jar", SENTISTRENGTH_JAR,
+        "sentidata", SENTISTRENGTH_DATA,
+        "input", "./input/MARKET.txt",
+        "textCol", "2",
+        "idCol", "1",
+        "overwrite",
+    ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+    shutil.move("./input/MARKET_classID.txt", "./output/MARKET_out.csv")
+
+    # read scores back
+    scores = pd.read_csv("./output/MARKET_out.csv", sep="\t", header=None,
+                         names=["id","positive","negative"])
+
+    all_text["id"]  = all_text["id"].astype(str)
+    scores["id"]    = scores["id"].astype(str)
+
+    merged = all_text.merge(scores[["id","positive","negative"]], on="id", how="left")
+    merged["compound"] = merged["positive"] + merged["negative"]
+    merged["ratio"]    = (merged["positive"] + merged["negative"]) / (merged["positive"].abs() + merged["negative"].abs())
+
+    merged.to_csv("./csvs/MARKET_mentions.csv", index=False)
+
+    # daily aggregation
+    daily = (
+        merged.groupby("date")
+        .agg(
+            mention_count=("id", "count"),
+            avg_positive=("positive", "mean"),
+            avg_negative=("negative", "mean"),
+            avg_compound=("compound", "mean"),
+            median_positive=("positive", "median"),
+            median_negative=("negative", "median"),
+        )
+        .reset_index()
+    )
+
+    daily.to_csv("./csvs/MARKET_daily_sentiment.csv", index=False)
+    log.info(f"Market daily sentiment written ({len(daily)} days)")
+
 # ── Main ─────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-ns", "--no-scan", action="store_true", 
                         help="Skip scanning comments and use existing mentions tables")
+    parser.add_argument("-nm", "--no-market", action="store_true",
+                    help="Skip aggregate market sentiment analysis")
     parser.add_argument("-ss", "--skip-sentiment", action="store_true",
                         help="Skip running SentiStrength and use existing sentiment scores")
     args = parser.parse_args()
 
     conn = get_db()
 
+    if not args.no_market:
+        aggregate_market_sentiment(conn)
     if not args.no_scan:
         posts, comments = load_and_clean(conn)
         populate_mentions(conn, posts, comments)
