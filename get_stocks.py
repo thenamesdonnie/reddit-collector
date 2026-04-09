@@ -15,7 +15,8 @@ for name, ticker in MAG7.items():
     start_date = mentions["date"].min()
     end_date = mentions["date"].max()
     print(f"Fetching {name} data from {start_date} to {end_date}")
-    df = yf.download(ticker, start=start_date, end=end_date, auto_adjust=True)
+    #df = yf.download(ticker, start=start_date, end=end_date, auto_adjust=True)
+    df = yf.download(ticker, start="2025-12-01", end="2026-03-31", auto_adjust=True)
     df.columns = df.columns.get_level_values(0)  # flatten multi-level header
     df.index.name = "Date"
     df.to_csv(f"./stocks/{name}.csv")

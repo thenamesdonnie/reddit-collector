@@ -1,17 +1,3 @@
-"""
-preprocess_reddit.py
---------------------
-Pipeline:
-  1. Clean post/comment text (URLs, boilerplate, markdown noise)
-  2. Detect Mag7 ticker mentions via tickers, company names & aliases
-  3. Build per-ticker  <TICKER>_mentions  tables
-  4. Score with SentiStrength → <TICKER>_daily_sentiment tables
-
-Requirements:  pip install pandas tqdm
-Also needs:    Java + SentiStrength.jar + SentiStrength_Data/
-               Download from http://sentistrength.wlv.ac.uk/
-"""
-
 import sqlite3, re, os, logging, subprocess, tempfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -122,6 +108,10 @@ def populate_mentions(conn, posts, comments):
             if not hits:
                 continue
             date    = utc_to_date(row.get("created_utc"))
+            if date is None:
+                continue
+            if date < "2025-12-01" or date > "2026-03-31":
+                continue
             post_id = row["id"] if src == "post" else row.get("post_id")
             for t in hits:
                 buckets[t].append((
@@ -144,8 +134,8 @@ def populate_mentions(conn, posts, comments):
         
         with open(f"./input/{ticker}.txt", "w", encoding="utf-8") as f:
             for row in buckets[ticker]:
-                id   = row[0]  # comment id
-                body = row[4].replace("\n", " ").replace("\t", " ")  # flatten
+                id   = row[0]
+                body = row[4].replace("\n", " ").replace("\t", " ")
                 f.write(f"{id}\t{body}\n")
         
         log.info(f"  {ticker}: {len(buckets[ticker]):,} mentions inserted")
@@ -204,12 +194,10 @@ def append_sentiment_scores():
             .reset_index()
         )
 
-        # roll weekend sentiment into Monday
         daily["date"] = pd.to_datetime(daily["date"])
 
         daily["date"] = daily["date"].apply(roll_to_monday)
 
-        # re-aggregate in case multiple days now share the same Monday
         daily = (
             daily.groupby("date")
             .agg(
